@@ -79,7 +79,7 @@ analytics:
 # Site Author
 author:
   name             : #"Jason Wei"
-  avatar           : "taverna.jpeg"
+  avatar           : #"taverna.jpeg"
   bio              : 
   textemail        : #"jason.weng.wei@gmail.com"
   location         : 
@@ -94,7 +94,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ameskandari"
+  github           : #"ameskandari"
   google_plus      :
   keybase          :
   instagram        :
@@ -106,7 +106,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "_jasonwei"
+  twitter          : #"_jasonwei"
   vine             :
   weibo            :
   xing             :
