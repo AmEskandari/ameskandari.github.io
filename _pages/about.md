@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Jason Wei"
+title: "Amir Eskandari"
 excerpt: "About Me"
 author_profile: true
 redirect_from: 
