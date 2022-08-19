@@ -36,7 +36,8 @@ I love talking about science and technology. Shoot me an email if you'd like to 
 | Email: amireskandari@aut.ac.ir 
 </p>
 
-<span style="font-size:1.3em">Publications (<a href="https://ameskandari.github.io/papers/" style="color:#191970">see all</a>)</span>
+<!-- <span style="font-size:1.3em">Publications (<a href="https://ameskandari.github.io/papers/" style="color:#191970">see all</a>)</span> -->
+<span style="font-size:1.3em">Publications</span>   
 <table style="width:100%">
     
   <tr>
