@@ -22,7 +22,7 @@ table, th, td {
 <body>
   
 <p style="margin-bottom: 1.2em; line-height: 1.8">
-I am a research scientist at <a href="https://aut.ac.ir/en/" style="color:#191970">AmirKabir University of Technology</a> with a B.Sc. from <a href="https://ikiu.ac.ir/en/" style="color:#191970">IKIU</a> both in Electrical Engineering. I work on applying Graph-Based Learning on Sensory Networks & Multivariate Time Series, Spatio-Temporal Data. In AUT I am adviced by Prof. <a href="https://aut.ac.ir/cv/2519/VAHID%20POURAHMADI" style="color:#191970">Vahid Pourahmadi</a> <br>
+I am a M.Sc. student at <a href="https://aut.ac.ir/en/" style="color:#191970">AmirKabir University of Technology</a> with a B.Sc. from <a href="https://ikiu.ac.ir/en/" style="color:#191970">IKIU</a> both in Electrical Engineering. I work on applying Graph-Based Learning on Sensory Networks & Multivariate Time Series, Spatio-Temporal Data. In AUT I am adviced by Prof. <a href="https://aut.ac.ir/cv/2519/VAHID%20POURAHMADI" style="color:#191970">Vahid Pourahmadi</a> <br>
   
 <!-- <a href="https://jasonwei20.github.io/personal/" style="color:#191970" target="_blank">Personal</a> |  -->
 <a href="https://jasonwei20.github.io/files/current-jason-wei-cv.pdf" style="color:#191970" target="_blank">Vitæ</a> 
