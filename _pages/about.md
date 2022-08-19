@@ -28,7 +28,6 @@ I am a M.Sc. student at <a href="https://aut.ac.ir/en/" style="color:#191970">Am
  I love talking about Science, Technology. Shoot me an email if you'd like to discuss!
   
 <br>
-  
 <!-- <a href="https://jasonwei20.github.io/personal/" style="color:#191970" target="_blank">Personal</a> |  -->
 <a href="https://jasonwei20.github.io/files/current-jason-wei-cv.pdf" style="color:#191970" target="_blank">Vitæ</a> 
 | <a href="https://www.linkedin.com/in/ameskandari/" style="color:#191970" target="_blank">Linkedin</a> 
