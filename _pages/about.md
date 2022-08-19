@@ -97,11 +97,4 @@ Networks.</a></td>
 <!-- | <a href="https://jasonwei20.github.io/personal/" style="color:#191970" target="_blank">Personal</a> -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-146397444-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-146397444-1');
-</script>
