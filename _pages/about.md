@@ -23,8 +23,10 @@ table, th, td {
   
 <p style="margin-bottom: 1.2em; line-height: 1.2">
 I am a M.Sc. student at <a href="https://aut.ac.ir/en/" style="color:#191970">AmirKabir University of Technology</a> with a B.Sc. from <a href="https://ikiu.ac.ir/en/" style="color:#191970">IKIU</a>, both in Electrical Engineering. I work on applying Graph-Based Learning on Sensory Networks, Multivariate Time Series and Spatio-Temporal Data. At AUT I am adviced by Prof. <a href="https://aut.ac.ir/cv/2519/VAHID%20POURAHMADI" style="color:#191970">Vahid Pourahmadi</a>. <br>
+<p style="margin-bottom: 1.2em; line-height: 1.2">
+Recently, I started a new Research Internship program in the School of Biomedical Engineering at the <a href="https://www.unsw.edu.au/" style="color:#191970">University of New South Wales (UNSW Sydney)</a>. I work on applying GNNs to find out the gens-disease relations. In there I am advised by Dr. <a href="https://research.unsw.edu.au/people/dr-hamid-alinejad-rokny" style="color:#191970">Hamid Alinejad-Rokny</a>. <br>
 <p style="margin-bottom: 1.2em; line-height: 1.2; font-size: smaller">
-I love talking about science and technology. Shoot me an email if you'd like to discuss!!
+I love talking about science and technology. Shoot me an email if you'd like to discuss!
 <br>
 <p style="margin-bottom: 1.2em; line-height: 1.2">
 <br>
