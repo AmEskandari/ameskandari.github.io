@@ -44,7 +44,7 @@ I love talking about science and technology. Shoot me an email if you'd like to 
     
   <tr>
     <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://github.com/AmEskandari/ameskandari.github.io/blob/master/_pages/404.md" style="color:#191970" target="_blank">[Submitted] GN2DI: A Scalable Graph Neural Networks Framework For Spatial Missing Data Imputation.  </a></td>
+    <td><a style="color:#191970" target="_blank">[Submitted] GN2DI: A Scalable Graph Neural Networks Framework For Spatial Missing Data Imputation.  </a></td>
   </tr>
   <tr>
     <td></td>
@@ -53,7 +53,7 @@ I love talking about science and technology. Shoot me an email if you'd like to 
   
    <tr>
     <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://github.com/AmEskandari/ameskandari.github.io/blob/master/_pages/404.md" style="color:#191970" target="_blank">[In-Preparation] Spatial‑Temporal Missing Data Imputation Using A Deep Hierarchical Approach.  </a></td>
+    <td><a  style="color:#191970" target="_blank">[In-Preparation] Spatial‑Temporal Missing Data Imputation Using A Deep Hierarchical Approach.  </a></td>
   </tr>
   <tr>
     <td></td>
