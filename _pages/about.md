@@ -22,7 +22,7 @@ table, th, td {
 <body>
   
 <p style="margin-bottom: 1.2em; line-height: 1.2">
-I am a M.Sc. student at <a href="https://aut.ac.ir/en/" style="color:#191970">AmirKabir University of Technology</a> with a B.Sc. from <a href="https://ikiu.ac.ir/en/" style="color:#191970">IKIU</a>, both in Electrical Engineering. I work on applying Graph-Based Learning on Sensory Networks, Multivariate Time Series and Spatio-Temporal Data. At AUT I am adviced by Prof. <a href="https://aut.ac.ir/cv/2519/VAHID%20POURAHMADI" style="color:#191970">Vahid Pourahmadi</a>. <br>
+I am an accomplished AI Engineer and Developer at <a href="https://ithermai.com/" style="color:#191970">iThermAI</a>, as well as a dedicated graduate research assistant at AUT. I proudly hold an M.Sc. degree from <a href="https://aut.ac.ir/en/" style="color:#191970">AmirKabir University of Technology</a> and a B.Sc. degree from <a href="https://ikiu.ac.ir/en/" style="color:#191970">IKIU</a>, both in the field of Electrical Engineering. My professional experience encompasses the application of Graph-Based Learning techniques to Sensory Networks, Multivariate Time Series, and Spatio-Temporal Data. At AUT, I have the privilege of being mentored by the esteemed Prof. <a href="https://aut.ac.ir/cv/2519/VAHID%20POURAHMADI" style="color:#191970">Vahid Pourahmadi</a>. In my role at <a href="https://ithermai.com/" style="color:#191970">iThermAI</a>, I focus on tackling various vision tasks. <br>
 
 <p style="margin-bottom: 1.2em; line-height: 1.2; font-size: smaller">
 I love talking about science and technology. Shoot me an email if you'd like to discuss!
