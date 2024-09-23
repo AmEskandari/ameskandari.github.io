@@ -12,8 +12,8 @@ redirect_from:
 <html>
 <style>
 body {
-  font-size: 0.95em;
-  max-width: 1200px; /* Increased from default */
+  font-size: 0.75em;
+  max-width: 1500px; /* Increased from default */
   margin: 0 auto; /* Center the content */
   padding: 0 20px; /* Add some padding on the sides */
 }
@@ -21,7 +21,7 @@ table, th, td {
   border:0px solid black;
   padding:0;
   border-collapse:collapse;
-  font-size: 0.9em;
+  font-size: 0.5em;
 }
 </style>
   
@@ -83,6 +83,10 @@ I love talking about science and technology. Shoot me an email if you'd like to 
   <tr>
     <td></td>
     <td style="padding-bottom:10px">E. Rashno, <b>A. Eskandari</b>, A. Aanad, F. Zulkernine</td>
+     <tr>
+    <td></td>
+<a href="https://arxiv.org/pdf/2408.04723" style="color:#191970" target="_blank">arXiv</a></td>
+  </tr>
   </tr>
 
   <tr>
