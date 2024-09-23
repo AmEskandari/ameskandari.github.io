@@ -13,6 +13,9 @@ redirect_from:
 <style>
 body {
   font-size: 0.95em;
+  max-width: 1200px; /* Increased from default */
+  margin: 0 auto; /* Center the content */
+  padding: 0 20px; /* Add some padding on the sides */
 }
 table, th, td {
   border:0px solid black;
@@ -83,7 +86,7 @@ I love talking about science and technology. Shoot me an email if you'd like to 
   </tr>
 
   <tr>
-    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">IEEE FMLDS</td>
+    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">IEEE FMLDS 2024</td>
     <td><a href="https://ieeexplore.ieee.org/document/10189452" style="color:#191970" target="_blank">GN2DI: A Scalable Graph Neural Network Framework for Spatial Missing Data Imputation in Sensor Networks</a></td>
   </tr>
   <tr>
