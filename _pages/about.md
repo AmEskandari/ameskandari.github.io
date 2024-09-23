@@ -22,79 +22,61 @@ table, th, td {
 <body>
   
 <p style="margin-bottom: 1.2em; line-height: 1.2">
-I a dedicated graduate research assistant at AUT. I proudly hold an M.Sc. degree from <a href="https://aut.ac.ir/en/" style="color:#191970">AmirKabir University of Technology</a> and a B.Sc. degree from <a href="https://ikiu.ac.ir/en/" style="color:#191970">IKIU</a>, both in the field of Electrical Engineering. My professional experience encompasses the application of Graph-Based Learning techniques to Sensory Networks, Multivariate Time Series, and Spatio-Temporal Data. At AUT, I have the privilege of being mentored by the esteemed Prof. <a href="https://aut.ac.ir/cv/2519/VAHID%20POURAHMADI" style="color:#191970">Vahid Pourahmadi</a>. <br>
+I am a PhD student in the School of Computing at <a href="https://www.queensu.ca" style="color:#191970">Queen's University</a> in Ontario, Canada. I am supervised by Dr. <a href="https://www.cs.queensu.ca/people/Farhana/Zulkernine" style="color:#191970">Farhana Zulkernine</a> and Dr. (<a href="https://www.queensu.ca/psychology/people/jordan-poppenk" style="color:#191970">Jordan Poppenk</a>). I am also a PhD trainee at Connected Minds CFREF. My research focuses on Graph Machine Learning for text and time-series data, with applications mainly in AI-Reasoning, Multi-Variate time-series imputation, automated diagnosis systems, and dialogue systems.
+
+Prior to my PhD, I was a graduate research assistant at AUT. I proudly hold an M.Sc. degree from <a href="https://aut.ac.ir/en/" style="color:#191970">AmirKabir University of Technology</a> and a B.Sc. degree from <a href="https://ikiu.ac.ir/en/" style="color:#191970">IKIU</a>, both in the field of Electrical Engineering. During my master's, I worked on multi-variate time-series imputation using GNNs. At AUT, I was suprvised by Dr. <a href="https://aut.ac.ir/cv/2519/VAHID%20POURAHMADI" style="color:#191970">Vahid Pourahmadi</a>. <br>
 
 <p style="margin-bottom: 1.2em; line-height: 1.2; font-size: smaller">
 I love talking about science and technology. Shoot me an email if you'd like to discuss!
 <br>
 <p style="margin-bottom: 1.2em; line-height: 1.2">
 <br>
-  <!-- <a href="https://jasonwei20.github.io/personal/" style="color:#191970" target="_blank">Personal</a> |  -->
 <a href="https://ameskandari.github.io/files/CV-Amir-Eskandari.pdf" style="color:#191970" target="_blank">CV</a> 
 | <a href="https://www.linkedin.com/in/ameskandari/" style="color:#191970" target="_blank">Linkedin</a> 
 | <a href="https://github.com/AmEskandari" style="color:#191970" target="_blank">GitHub</a> 
 | <a href="https://twitter.com/Amireskndri" style="color:#191970" target="_blank">Twitter</a> 
-| Email: amireskandari@aut.ac.ir 
+| Email: amir.eskandari@queensu.ca 
 </p>
 
-<!-- <span style="font-size:1.3em">Publications (<a href="https://ameskandari.github.io/papers/" style="color:#191970">see all</a>)</span> -->
 <span style="font-size:1.3em">Publications</span>   
 <table style="width:100%">
     
   <tr>
-    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a style="color:#191970" target="_blank">[Revised] GN2DI: A Scalable Graph Neural Networks Framework For Spatial Missing Data Imputation.  </a></td>
+    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">Submitted (ICASSP)</td>
+    <td><a style="color:#191970" target="_blank">SDA-GRIN for Adaptive Spatial-Temporal Multivariate Time Series Imputation</a></td>
   </tr>
   <tr>
     <td></td>
-    <td style="padding-bottom:4px"><b>Amir Eskandari</b>, Saeed Jamshidiha and Vahid Pourahmadi.</td>
-  </tr>
-  
-  <!--
-  <tr>
-    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://arxiv.org/abs/2201.11903" style="color:#191970" target="_blank">Chain of thought prompting elicits reasoning in large language models.</a></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td><b>Jason Wei</b>, Xuezhi Wang, Dale Schuurmans, Maarten Bosma, Ed Chi, Quoc Le, and Denny Zhou.</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td style="padding-bottom:4px"><a href="https://twitter.com/Google/status/1525188695875366912" target="_blank">Sundar explains chain of thought prompting at Google I/O 2022</a> / <a href="https://ai.googleblog.com/2022/05/language-models-perform-reasoning-via.html" target="_blank">Google AI blog</a></td>
+    <td style="padding-bottom:4px"><b>A. Eskandari</b>, A. Aanad, D. Sharma, F. Zulkernine. <a href="https://github.com/AmEskandari/sdagrin" style="color:#191970" target="_blank">Code (Comming Soon!)</a> | <a href="https://ameskandari.github.io/sda-grin/" style="color:#191970" target="_blank">Website</a></td>
   </tr>
   
   <tr>
-    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">ICLR '22</td>
-    <td><a href="https://openreview.net/forum?id=gEZrGCozdqR" style="color:#191970" target="_blank">Finetuned language models are zero-shot learners</a>.</td>
+    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">Submitted (ICASSP)</td>
+    <td><a style="color:#191970" target="_blank">Self-Supervised Keypoint Detection with Distilled Depth Keypoint Representation</a></td>
   </tr>
   <tr>
     <td></td>
-    <td style="padding-bottom:4px">{<b>Jason Wei</b>, Maarten Bosma, Vincent Zhao, Kelvin Guu}, Adams Yu, Brain Lester, Nan Du, Andrew Dai, and Quoc Le. <a href="https://ai.googleblog.com/2021/10/introducing-flan-more-generalizable.html" target="_blank">Google AI blog</a> / <a href="https://www.youtube.com/watch?v=iq2kEGanDso" target="_blank">oral</a></td>
+    <td style="padding-bottom:4px">A. Aanad, E. Rashno, <b>A. Eskandari</b>, F. Zulkernine. <a href="https://github.com/AmEskandari/SSKD" style="color:#191970" target="_blank">Code (Comming Soon!)</a> | <a href="https://23wm13.github.io/distill-dkp/" style="color:#191970" target="_blank">Website</a></td>
   </tr>
-  
+
   <tr>
-    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">EMNLP '21</td>
-    <td><a href="https://aclanthology.org/2021.emnlp-main.72/" style="color:#191970" target="_blank">Frequency effects on syntactic rule learning in transformers</a>.</td>
-  </tr>
-  <tr>
-    <td></td>
-    <td style="padding-bottom:4px"><b>Jason Wei</b>, Dan Garrette, Tal Linzen, and Ellie Pavlick. <a href="https://ai.googleblog.com/2021/12/evaluating-syntactic-abilities-of.html" target="_blank">Google AI blog</a> / <a href="https://screencast-o-matic.com/watch/cr6QnuVXYT1" target="_blank">oral</a></td>
-  </tr>
-  
-  <tr>
-    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">EMNLP '19</td>
-    <td><a href="http://dx.doi.org/10.18653/v1/D19-1670" style="color:#191970" target="_blank">Easy data augmentation techniques for boosting performance on text classification tasks.</a></td>
+    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">Submitted (ACM Survey)</td>
+    <td><a style="color:#191970" target="_blank">Survey: Transformer-based Models in Multimodal Data Processing</a></td>
   </tr>
   <tr>
     <td></td>
-    <td style="padding-bottom:3px"><b>Jason Wei</b> and Kai Zou.</td>
+    <td style="padding-bottom:4px">E. Rashno, <b>A. Eskandari</b>, A. Aanad, F. Zulkernine</td>
   </tr>
-  -->
+
+  <tr>
+    <td style="width:80px; text-align:right; padding-right:10px; font-size:0.8em">IEEE FMLDS</td>
+    <td><a href="https://ieeexplore.ieee.org/document/10189452" style="color:#191970" target="_blank">GN2DI: A Scalable Graph Neural Network Framework for Spatial Missing Data Imputation in Sensor Networks</a></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td style="padding-bottom:4px"><b>A. Eskandari</b>, S. Jamshidiha, V. Pourahmadi. <a href="https://github.com/AmEskandari/GN2DI" style="color:#191970" target="_blank">Code Comming Soon!</a> | <a href="https://ameskandari.github.io/GN2DI/" style="color:#191970" target="_blank">PDF (Comming Soon!)</a></td>
+  </tr>
 </table>
 
-
-<!-- | <a href="https://jasonwei20.github.io/personal/" style="color:#191970" target="_blank">Personal</a> -->
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-
+</body>
+</html>
