@@ -11,6 +11,9 @@ redirect_from:
 
 <html>
 <style>
+body {
+  font-size: 0.95em;
+}
 table, th, td {
   border:0px solid black;
   padding:0;
@@ -23,14 +26,17 @@ table, th, td {
   
 <p style="margin-bottom: 1.2em; line-height: 1.2">
 I am a PhD student in the School of Computing at <a href="https://www.queensu.ca" style="color:#191970">Queen's University</a> in Ontario, Canada. I am supervised by Dr. <a href="https://www.cs.queensu.ca/people/Farhana/Zulkernine" style="color:#191970">Farhana Zulkernine</a> and Dr. <a href="https://www.queensu.ca/psychology/people/jordan-poppenk" style="color:#191970">Jordan Poppenk</a>. I am also a PhD trainee at Connected Minds CFREF. My research focuses on Graph Machine Learning for text and time-series data, with applications mainly in AI-Reasoning, Multi-Variate time-series imputation, automated diagnosis systems, and dialogue systems.
+</p>
 
-Prior to my PhD, I was a graduate research assistant at AUT. I proudly hold an M.Sc. degree from <a href="https://aut.ac.ir/en/" style="color:#191970">AmirKabir University of Technology</a> and a B.Sc. degree from <a href="https://ikiu.ac.ir/en/" style="color:#191970">IKIU</a>, both in the field of Electrical Engineering. During my master's, I worked on multi-variate time-series imputation using GNNs. At AUT, I was suprvised by Dr. <a href="https://aut.ac.ir/cv/2519/VAHID%20POURAHMADI" style="color:#191970">Vahid Pourahmadi</a>. <br>
+<p style="margin-bottom: 1.2em; line-height: 1.2">
+Prior to my PhD, I was a graduate research assistant at AUT. I proudly hold an M.Sc. degree from <a href="https://aut.ac.ir/en/" style="color:#191970">AmirKabir University of Technology</a> and a B.Sc. degree from <a href="https://ikiu.ac.ir/en/" style="color:#191970">IKIU</a>, both in the field of Electrical Engineering. During my master's, I worked on multi-variate time-series imputation using GNNs. At AUT, I was supervised by Dr. <a href="https://aut.ac.ir/cv/2519/VAHID%20POURAHMADI" style="color:#191970">Vahid Pourahmadi</a>.
+</p>
 
 <p style="margin-bottom: 1.2em; line-height: 1.2; font-size: smaller">
 I love talking about science and technology. Shoot me an email if you'd like to discuss!
-<br>
+</p>
+
 <p style="margin-bottom: 1.2em; line-height: 1.2">
-<br>
 <a href="https://ameskandari.github.io/files/CV-Amir-Eskandari.pdf" style="color:#191970" target="_blank">CV</a> 
 | <a href="https://www.linkedin.com/in/ameskandari/" style="color:#191970" target="_blank">Linkedin</a> 
 | <a href="https://github.com/AmEskandari" style="color:#191970" target="_blank">GitHub</a> 
@@ -47,7 +53,11 @@ I love talking about science and technology. Shoot me an email if you'd like to 
   </tr>
   <tr>
     <td></td>
-    <td style="padding-bottom:4px"><b>A. Eskandari</b>, A. Aanad, D. Sharma, F. Zulkernine. <a href="https://github.com/AmEskandari/sdagrin" style="color:#191970" target="_blank">Code (Comming Soon!)</a> | <a href="https://ameskandari.github.io/sda-grin/" style="color:#191970" target="_blank">Website</a></td>
+    <td style="padding-bottom:4px"><b>A. Eskandari</b>, A. Aanad, D. Sharma, F. Zulkernine.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td style="padding-bottom:10px"><a href="https://github.com/AmEskandari/sdagrin" style="color:#191970" target="_blank">Code (Coming Soon!)</a> | <a href="https://ameskandari.github.io/sda-grin/" style="color:#191970" target="_blank">Website</a></td>
   </tr>
   
   <tr>
@@ -56,7 +66,11 @@ I love talking about science and technology. Shoot me an email if you'd like to 
   </tr>
   <tr>
     <td></td>
-    <td style="padding-bottom:4px">A. Aanad, E. Rashno, <b>A. Eskandari</b>, F. Zulkernine. <a href="https://github.com/AmEskandari/SSKD" style="color:#191970" target="_blank">Code (Comming Soon!)</a> | <a href="https://23wm13.github.io/distill-dkp/" style="color:#191970" target="_blank">Website</a></td>
+    <td style="padding-bottom:4px">A. Aanad, E. Rashno, <b>A. Eskandari</b>, F. Zulkernine.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td style="padding-bottom:10px"><a href="https://github.com/AmEskandari/SSKD" style="color:#191970" target="_blank">Code (Coming Soon!)</a> | <a href="https://23wm13.github.io/distill-dkp/" style="color:#191970" target="_blank">Website</a></td>
   </tr>
 
   <tr>
@@ -65,7 +79,7 @@ I love talking about science and technology. Shoot me an email if you'd like to 
   </tr>
   <tr>
     <td></td>
-    <td style="padding-bottom:4px">E. Rashno, <b>A. Eskandari</b>, A. Aanad, F. Zulkernine</td>
+    <td style="padding-bottom:10px">E. Rashno, <b>A. Eskandari</b>, A. Aanad, F. Zulkernine</td>
   </tr>
 
   <tr>
@@ -74,9 +88,10 @@ I love talking about science and technology. Shoot me an email if you'd like to 
   </tr>
   <tr>
     <td></td>
-    <td style="padding-bottom:4px"><b>A. Eskandari</b>, S. Jamshidiha, V. Pourahmadi. <a href="https://github.com/AmEskandari/GN2DI" style="color:#191970" target="_blank">Code Comming Soon!</a> | <a href="https://ameskandari.github.io/GN2DI/" style="color:#191970" target="_blank">PDF (Comming Soon!)</a></td>
+    <td style="padding-bottom:4px"><b>A. Eskandari</b>, S. Jamshidiha, V. Pourahmadi.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td style="padding-bottom:10px"><a href="https://github.com/AmEskandari/GN2DI" style="color:#191970" target="_blank">Code Coming Soon!</a> | <a href="https://ameskandari.github.io/GN2DI/" style="color:#191970" target="_blank">PDF (Coming Soon!)</a></td>
   </tr>
 </table>
-
-</body>
-</html>
