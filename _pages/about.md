@@ -92,6 +92,6 @@ I love talking about science and technology. Shoot me an email if you'd like to 
   </tr>
   <tr>
     <td></td>
-    <td style="padding-bottom:10px"><a href="https://github.com/AmEskandari/GN2DI" style="color:#191970" target="_blank">Code Coming Soon!</a> | <a href="https://ameskandari.github.io/GN2DI/" style="color:#191970" target="_blank">PDF (Coming Soon!)</a></td>
+    <td style="padding-bottom:10px"><a href="https://github.com/AmEskandari/GN2DI" style="color:#191970" target="_blank">Code (Coming Soon)!</a> | <a href="https://ameskandari.github.io/GN2DI/" style="color:#191970" target="_blank">PDF (Coming Soon!)</a></td>
   </tr>
 </table>
