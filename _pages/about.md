@@ -21,7 +21,7 @@ table, th, td {
   border:0px solid black;
   padding:0;
   border-collapse:collapse;
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
 </style>
   
