@@ -60,7 +60,7 @@ I love talking about science and technology. Shoot me an email if you'd like to 
   </tr>
   <tr>
     <td></td>
-    <td style="padding-bottom:10px"><a href="https://github.com/AmEskandari/sdagrin" style="color:#191970" target="_blank">Code (Coming Soon!)</a> | <a href="https://ameskandari.github.io/sda-grin/" style="color:#191970" target="_blank">Website</a><a href="https://arxiv.org/abs/2410.03954" style="color:#191970" target="_blank">arXiv</a> </td>
+    <td style="padding-bottom:10px"><a href="https://github.com/AmEskandari/sdagrin" style="color:#191970" target="_blank">Code (Coming Soon!)</a> | <a href="https://ameskandari.github.io/sda-grin/" style="color:#191970" target="_blank">Website</a> | <a href="https://arxiv.org/abs/2410.03954" style="color:#191970" target="_blank">arXiv</a> </td>
   </tr>
   
   <tr>
