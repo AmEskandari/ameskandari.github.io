@@ -40,7 +40,7 @@ I love talking about science and technology. Shoot me an email if you'd like to 
 </p>
 
 <p style="margin-bottom: 1.2em; line-height: 1.2">
-<a href="https://ameskandari.github.io/files/CV-Amir-Eskandari.pdf" style="color:#191970" target="_blank">CV</a> 
+<a href="https://ameskandari.github.io/assets/AmirEskandari_CV.pdf" style="color:#191970" target="_blank">CV</a> 
 | <a href="https://www.linkedin.com/in/ameskandari/" style="color:#191970" target="_blank">Linkedin</a> 
 | <a href="https://github.com/AmEskandari" style="color:#191970" target="_blank">GitHub</a> 
 | <a href="https://twitter.com/Amireskndri" style="color:#191970" target="_blank">Twitter</a> 
