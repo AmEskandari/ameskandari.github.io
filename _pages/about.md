@@ -44,12 +44,6 @@ nav a:hover {
   
 <body>
 
-<!-- New section for Blog Post Link aligned to the right -->
-<header>
-  <nav>
-    <a href="https://ameskandari.github.io/blog-post.html">Blog</a>
-  </nav>
-</header>
 
 <p style="margin-bottom: 1.2em; line-height: 1.2">
 I am a PhD student in the School of Computing at <a href="https://www.queensu.ca" style="color:#191970">Queen's University</a> in Ontario, Canada. I am supervised by Dr. <a href="https://www.cs.queensu.ca/people/Farhana/Zulkernine" style="color:#191970">Farhana Zulkernine</a> and Dr. <a href="https://www.queensu.ca/psychology/people/jordan-poppenk" style="color:#191970">Jordan Poppenk</a>. I am also a PhD trainee at Connected Minds CFREF. My research focuses on Graph Machine Learning for text and time-series data, with applications mainly in AI-Reasoning, Multi-Variate Time-Series Imputation, Automated Diagnosis Systems, and Dialogue Systems.
