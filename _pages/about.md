@@ -104,7 +104,7 @@ I love talking about science and technology. Shoot me an email if you'd like to 
   </tr>
   <tr>
     <td></td>
-    <td style="padding-bottom:10px"><a href="https://arxiv.org/2408.04723" style="color:#191970" target="_blank">arXiv</a></td>
+    <td style="padding-bottom:10px"><a href="https://arxiv.org/html/2408.04723v1" style="color:#191970" target="_blank">arXiv</a></td>
   </tr>
 
   <tr>
