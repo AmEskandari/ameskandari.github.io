@@ -91,7 +91,7 @@ I love talking about science and technology. Shoot me an email if you'd like to 
   </tr>
   <tr>
     <td></td>
-    <td style="padding-bottom:10px"><a href="https://github.com/AmEskandari/SSKD" style="color:#191970" target="_blank">Code (Coming Soon!)</a> | <a href="https://23wm13.github.io/distill-dkp/" style="color:#191970" target="_blank">Website</a> | <a href="https://arxiv.org/pdf/2410.14700" style="color:#191970" target="_blank">arXiv</a> </td>
+    <td style="padding-bottom:10px"><a href="https://github.com/AmEskandari/SSKD" style="color:#191970" target="_blank">Code (Coming Soon!)</a> | <a href="https://23wm13.github.io/distill-dkp/" style="color:#191970" target="_blank">Website</a> | <a href="https://arxiv.org/410.14700" style="color:#191970" target="_blank">arXiv</a> </td>
   </tr>
 
   <tr>
@@ -104,7 +104,7 @@ I love talking about science and technology. Shoot me an email if you'd like to 
   </tr>
   <tr>
     <td></td>
-    <td style="padding-bottom:10px"><a href="https://arxiv.org/pdf/2408.04723" style="color:#191970" target="_blank">arXiv</a></td>
+    <td style="padding-bottom:10px"><a href="https://arxiv.org/2408.04723" style="color:#191970" target="_blank">arXiv</a></td>
   </tr>
 
   <tr>
