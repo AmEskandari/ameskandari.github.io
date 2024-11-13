@@ -1,124 +1,129 @@
 ---
-title: "Personal Blog"
-permalink: /blog_posts/
+title: "Blog"
+permalink: /blog/
 author_profile: true
 ---
 
-<html>
 <style>
-table, th, td {
-  border:0px solid black;
-  padding:0;
-  border-collapse:collapse;
+body {
+  font-family: Georgia, serif;
+  font-size: 0.83em;
+  background-color: #FFFAF0;
+  color: #333333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.page-title {
+  font-family: Georgia, serif;
+  font-size: 2em;
+  color: #191970;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #191970;
+}
+
+.blog-post {
+  margin-bottom: 2em;
+  padding: 1.5em;
+  border-left: 2px solid #191970;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: transform 0.2s ease;
+}
+
+.blog-post:hover {
+  transform: translateX(5px);
+}
+
+.post-title {
+  font-family: Georgia, serif;
+  font-size: 1.2em;
+  color: #191970;
+  margin: 0 0 0.5em 0;
+}
+
+.post-title a {
+  color: #191970;
+  text-decoration: none;
+}
+
+.post-title a:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  color: #666;
+  font-size: 0.85em;
+  font-style: italic;
+  margin-bottom: 1em;
+}
+
+.post-excerpt {
   font-size: 0.9em;
+  margin: 1em 0;
+  line-height: 1.6;
+  color: #444;
+}
+
+.read-more {
+  display: inline-block;
+  color: #191970;
+  text-decoration: none;
+  font-style: italic;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.read-more:hover {
+  border-bottom-color: #191970;
+}
+
+.post-tags {
+  margin-top: 0.5em;
+  font-size: 0.8em;
+}
+
+.tag {
+  display: inline-block;
+  background: rgba(25, 25, 112, 0.1);
+  padding: 2px 8px;
+  margin-right: 5px;
+  border-radius: 3px;
+  color: #191970;
 }
 </style>
+
+<div class="container">
+  <h1 class="page-title">Blog Posts</h1>
   
-<p style="margin-bottom: 1.2em; line-height: 1.8">
-Blog posts about my life, partially inspired by John Watson's blog from the Sherlock Holmes stories.
-</p>
-
-<body>
-<table style="width:100%">
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em; padding-top:5px">2022</td>
-    <td style="padding-top:5px"><a href="https://jasonwei20.github.io/posts/2022/7/blog-post-21/" style="color:#191970" target="_blank">Spring: 摸鱼</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2022/4/blog-post-20/" style="color:#191970" target="_blank">Winter</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em; padding-top:5px">2021</td>
-    <td style="padding-top:5px"><a href="https://jasonwei20.github.io/posts/2021/12/blog-post-19/" style="color:#191970" target="_blank">Fall</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2021/10/blog-post-18/" style="color:#191970" target="_blank">Summer</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2021/7/blog-post-17/" style="color:#191970" target="_blank">Spring</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2021/4/blog-post-16/" style="color:#191970" target="_blank">Winter</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em; padding-top:5px">2020</td>
-    <td style="padding-top:5px"><a href="https://jasonwei20.github.io/posts/2020/12/blog-post-15/" style="color:#191970" target="_blank">Fall 2020: A new beginning</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2020/9/blog-post-14/" style="color:#191970" target="_blank">Summer after college</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2020/6/blog-post-13/" style="color:#191970" target="_blank">Spring 2020: Home</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2020/3/blog-post-12/" style="color:#191970" target="_blank">Starting the new decade</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em; padding-top:5px">2019</td>
-    <td style="padding-top:5px"><a href="https://jasonwei20.github.io/posts/2019/12/blog-post-10/" style="color:#191970" target="_blank">Fall 2019</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2019/9/blog-post-9/" style="color:#191970" target="_blank">Summer in SF</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2019/6/blog-post-9/" style="color:#191970" target="_blank">Spring: the grind returns</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2019/3/blog-post-8/" style="color:#191970" target="_blank">Winter solace</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em; padding-top:5px">2018</td>
-    <td style="padding-top:5px"><a href="https://jasonwei20.github.io/posts/2018/12/blog-post-7/" style="color:#191970" target="_blank">My term in the land of tall blonde people</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2018/9/blog-post-6/" style="color:#191970" target="_blank">The glorious sophomore summer</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2018/6/blog-post-5/" style="color:#191970" target="_blank">Gidday mate</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2018/6/blog-post-4/" style="color:#191970" target="_blank">Hello Hanover spring</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2018/2/blog-post-3/" style="color:#191970" target="_blank">Surviving winter</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em; padding-top:5px">2017</td>
-    <td style="padding-top:5px"><a href="https://jasonwei20.github.io/posts/2018/1/blog-post-2/" style="color:#191970" target="_blank">Fall: a review</a></td>
-  </tr>
-  <tr>
-    <td style="width:40px; text-align:right; padding-right:10px; font-size:0.8em"> </td>
-    <td><a href="https://jasonwei20.github.io/posts/2017/12/blog-post-1/" style="color:#191970" target="_blank">Travels in Iceland</a></td>
-  </tr>
-</table>
-
-</body>
-</html>
-
-<img src="/images/grand_canyon.jpg" width="29%">
-<img src="/images/antelope_canyon.jpg" width="29%">
-<img src="/images/horseshoe_bend.jpg" width="29%">
-<img src="/images/dtu/venice_gondola.jpg" width="29%">
-<img src="/images/dtu/vilnius.jpg" width="29%">
-<img src="/images/dtu/hagia.jpg" width="29%">
-<img src="/images/personal_anz_1.jpg" width="29%">
-<img src="/images/personal_anz_2.jpg" width="29%">
-<img src="/images/personal_anz_3.jpg" width="29%">
-<img src="/images/personal_iceland_1.jpg" width="29%">
-<img src="/images/personal_iceland_2.jpg" width="29%">
-<img src="/images/personal_iceland_3.jpg" width="29%">
-
+  {% for post in site.posts %}
+    <div class="blog-post">
+      <h2 class="post-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </h2>
+      <div class="post-date">{{ post.date | date: "%B %d, %Y" }}</div>
+      <div class="post-excerpt">
+        {% if post.excerpt %}
+          {{ post.excerpt | strip_html | truncatewords: 50 }}
+        {% endif %}
+      </div>
+      {% if post.tags.size > 0 %}
+        <div class="post-tags">
+          {% for tag in post.tags %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+      <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+    </div>
+  {% endfor %}
+</div>
