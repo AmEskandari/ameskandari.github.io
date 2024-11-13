@@ -1,5 +1,5 @@
 ---
-title: "Blog"
+title: ""
 header:
   title: ""
 permalink: /blog/
@@ -105,6 +105,7 @@ body {
 </style>
 
 <div class="container">
+  <h1 class="page-title">Blog Posts</h1>
   {% for post in site.posts %}
     <div class="blog-post">
       <h2 class="post-title">
