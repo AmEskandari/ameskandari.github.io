@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Amir Eskandari"
+title: 
 excerpt: "About Me"
 author_profile: true
 redirect_from: 
