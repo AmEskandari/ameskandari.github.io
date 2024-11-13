@@ -154,6 +154,7 @@ markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
+excerpt_length: 50
 incremental: false
 
 
