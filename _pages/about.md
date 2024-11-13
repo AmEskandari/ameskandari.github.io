@@ -150,7 +150,6 @@ a:hover {
       <span class="news-date">[Aug 2024]</span> Our paper on GN2DI accepted to IEEE FMLDS 2024
     </div>
     <div class="news-item">
-    <div class="news-item">
       <span class="news-date">[May 2024]</span> I won prestigious Connected Minds PhD Award
     </div>
       <span class="news-date">[September 2023]</span> I started my PhD in School of Computing, Queen's University
