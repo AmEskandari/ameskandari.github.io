@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: 
+title: "Amir Eskandari | Website"
 excerpt: "About Me"
 author_profile: true
 redirect_from: 
@@ -26,14 +26,6 @@ body {
   padding: 0 20px;
 }
 
-.title {
-  font-family: Georgia, serif;
-  font-size: 2em;
-  color: #333333;
-  margin: 0 0 0.5em 0;
-  padding: 0;
-}
-
 .header-links {
   text-align: right;
   margin-bottom: 1em;
@@ -41,8 +33,10 @@ body {
 
 .header-links a {
   color: #191970;
-  text-decoration: none;
-  font-weight: bold;
+  text-decoration: underline;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-weight: normal;
 }
 
 .section-header {
@@ -116,10 +110,8 @@ a:hover {
 
 <div class="container">
   <div class="header-links">
-    <a href="/blog">Blog</a>
+    <a href="/blog">blog</a>
   </div>
-
-  <h1 class="title">Amir Eskandari</h1>
 
   <p>I am a PhD student in the School of Computing at <a href="https://www.queensu.ca">Queen's University</a> in Ontario, Canada. I am supervised by Dr. <a href="https://www.cs.queensu.ca/people/Farhana/Zulkernine">Farhana Zulkernine</a> and Dr. <a href="https://www.queensu.ca/psychology/people/jordan-poppenk">Jordan Poppenk</a>. I am also a PhD trainee at Connected Minds CFREF. My research focuses on Graph Machine Learning for text and time-series data, with applications mainly in AI-Reasoning, Multi-Variate Time-Series Imputation, Automated Diagnosis Systems, and Dialogue Systems.</p>
 
@@ -139,7 +131,13 @@ a:hover {
   <div class="section-header">News</div>
   <div class="news-section">
     <div class="news-item">
+      <span class="news-date">[May 2024]</span> I won prestigase Connected Minds Award
+    </div>
+    <div class="news-item">
       <span class="news-date">[Oct 2023]</span> Two papers submitted to ICASSP 2024!
+    </div>
+    <div class="news-item">
+      <span class="news-date">[Sep 2023]</span> I started my PhD in School of Computing, Queen's University
     </div>
     <div class="news-item">
       <span class="news-date">[Aug 2023]</span> Submitted our survey on Transformer-based Models to ACM Computing Surveys
