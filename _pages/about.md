@@ -152,6 +152,7 @@ a:hover {
     <div class="news-item">
       <span class="news-date">[May 2024]</span> I won prestigious Connected Minds PhD Award
     </div>
+    <div class="news-item">
       <span class="news-date">[September 2023]</span> I started my PhD in School of Computing, Queen's University
     </div>
   </div>
