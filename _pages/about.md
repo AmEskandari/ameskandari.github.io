@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Amir Eskandari"
+title: "Amir Eskanda"
 excerpt: "About Me"
 author_profile: true
 redirect_from: 
@@ -121,7 +121,7 @@ a:hover {
     <a href="/blog">Blog</a>
   </div>
 
-  <h1 class="title">Amir Eskandari</h1>
+  
 
   <p>I am a PhD student in the School of Computing at <a href="https://www.queensu.ca">Queen's University</a> in Ontario, Canada. I am supervised by Dr. <a href="https://www.cs.queensu.ca/people/Farhana/Zulkernine">Farhana Zulkernine</a> and Dr. <a href="https://www.queensu.ca/psychology/people/jordan-poppenk">Jordan Poppenk</a>. I am also a PhD trainee at Connected Minds CFREF. My research focuses on Graph Machine Learning for text and time-series data, with applications mainly in AI-Reasoning, Multi-Variate Time-Series Imputation, Automated Diagnosis Systems, and Dialogue Systems.</p>
 
@@ -130,7 +130,7 @@ a:hover {
   <p style="font-style: italic">I love talking about science and technology. Shoot me an email if you'd like to discuss!</p>
 
   <p>
-  <a href="https://ameskandari.github.io">Google Scholar</a> | 
+  <a href="https://scholar.google.ca/citations?user=7RNTKkAAAAAJ&hl=en&oi=ao">Google Scholar</a> | 
   <a href="https://ameskandari.github.io/assets/AmirEskandari_CV.pdf">CV</a> | 
   <a href="https://www.linkedin.com/in/ameskandari/">LinkedIn</a> | 
   <a href="https://github.com/AmEskandari">GitHub</a> | 
@@ -141,16 +141,16 @@ a:hover {
   <div class="section-header">News</div>
   <div class="news-section">
     <div class="news-item">
-      <span class="news-date">[May 2024]</span> I won prestigious Connected Minds Award
+      <span class="news-date">[May 2024]</span> I won prestigious Connected Minds PhD Award
     </div>
     <div class="news-item">
-      <span class="news-date">[Feb 2024]</span> Our paper on GN2DI accepted to IEEE FMLDS 2024
+      <span class="news-date">[Oct 2024]</span> Two papers submitted to ICASSP 2024!
     </div>
     <div class="news-item">
-      <span class="news-date">[Jan 2024]</span> Two papers submitted to ICASSP 2024!
+      <span class="news-date">[Aug 2024]</span> Submitted our survey on Transformer-based Models to ACM Computing Surveys
     </div>
     <div class="news-item">
-      <span class="news-date">[Dec 2023]</span> Submitted our survey on Transformer-based Models to ACM Computing Surveys
+      <span class="news-date">[Aug 2024]</span> Our paper on GN2DI accepted to IEEE FMLDS 2024
     </div>
     <div class="news-item">
       <span class="news-date">[September 2023]</span> I started my PhD in School of Computing, Queen's University
