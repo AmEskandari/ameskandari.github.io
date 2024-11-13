@@ -1,7 +1,9 @@
 ---
 title: "Blog"
+header:
+  title: ""
 permalink: /blog/
-author_profile: true
+author_profile: false
 ---
 
 <style>
