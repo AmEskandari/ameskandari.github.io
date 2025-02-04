@@ -144,26 +144,26 @@ a:hover {
       <span class="news-date">[Jan 2025]</span> I served as a PC member of Big Data and Analytics in <a href="https://cs-conferences.acadiau.ca/ant-25/#homePage">ANT-25</a>!
     </div>
     <div class="news-item">
-      <span class="news-date">[Oct 2024]</span> Two papers submitted to ICASSP 2024!
+      <span class="news-date">[Aug 2024]</span> Submitted our survey on Transformer-based Models to ACM Computing Surveys.
     </div>
     <div class="news-item">
-      <span class="news-date">[Aug 2024]</span> Submitted our survey on Transformer-based Models to ACM Computing Surveys
+      <span class="news-date">[Aug 2024]</span> Our paper on GN2DI accepted to IEEE FMLDS 2024.
     </div>
     <div class="news-item">
-      <span class="news-date">[Aug 2024]</span> Our paper on GN2DI accepted to IEEE FMLDS 2024
+      <span class="news-date">[May 2024]</span> I won prestigious Connected Minds PhD Award!
     </div>
     <div class="news-item">
-      <span class="news-date">[May 2024]</span> I won prestigious Connected Minds PhD Award
+      <span class="news-date">[September 2023]</span> I started my PhD in School of Computing, Queen's University!
     </div>
-    <div class="news-item">
-      <span class="news-date">[September 2023]</span> I started my PhD in School of Computing, Queen's University
+     <div class="news-item">
+      <span class="news-date">[March 2023]</span> I defended my master's thesis on GNNs for multivariate time series with an excellent grade!
     </div>
   </div>
 
   <div class="section-header">Publications</div>
 
   <div class="publication-entry">
-    <div class="publication-date">Submitted (ICASSP)</div>
+    <div class="publication-date"> Preprint </div>
     <div class="publication-title">SDA-GRIN for Adaptive Spatial-Temporal Multivariate Time Series Imputation</div>
     <div class="publication-authors"><b>A. Eskandari</b>, A. Aanad, D. Sharma, F. Zulkernine.</div>
     <div class="publication-links">
@@ -172,9 +172,9 @@ a:hover {
       <a href="https://arxiv.org/abs/2410.03954">arXiv</a>
     </div>
   </div>
-
+<!--
   <div class="publication-entry">
-    <div class="publication-date">Submitted (ICASSP)</div>
+    <div class="publication-date">Preprint</div>
     <div class="publication-title">Self-Supervised Keypoint Detection with Distilled Depth Keypoint Representation</div>
     <div class="publication-authors">A. Aanad, E. Rashno, <b>A. Eskandari</b>, F. Zulkernine.</div>
     <div class="publication-links">
@@ -183,9 +183,9 @@ a:hover {
       <a href="https://arxiv.org/pdf/2410.14700">arXiv</a>
     </div>
   </div>
-
+-->
   <div class="publication-entry">
-    <div class="publication-date">Submitted (ACM Survey)</div>
+    <div class="publication-date"> Preprint </div>
     <div class="publication-title">Survey: Transformer-based Models in Multimodal Data Processing</div>
     <div class="publication-authors">E. Rashno, <b>A. Eskandari</b>, A. Aanad, F. Zulkernine</div>
     <div class="publication-links">
