@@ -118,7 +118,7 @@ a:hover {
 
 <div class="container">
   <div class="header-links">
-    <a href="/blog">Blog</a>
+    <a href="/blog-main">Blog</a>
   </div>
 
   
