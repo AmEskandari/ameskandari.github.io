@@ -199,7 +199,7 @@ a:hover {
     <div class="publication-authors"><b>A. Eskandari</b>, S. Jamshidiha, V. Pourahmadi.</div>
     <div class="publication-links">
       <a href="https://github.com/AmEskandari/GN2DI">Code</a>
-      <a href="https://ameskandari.github.io/GN2DI/">arXiv ((Comming Soon!) </a>
+      <a href="https://ieeexplore.ieee.org/abstract/document/10874098"> Paper Link </a>
     </div>
   </div>
 </div>
