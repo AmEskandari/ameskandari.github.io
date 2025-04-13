@@ -131,7 +131,6 @@ a:hover {
 
   <p>
   <a href="https://scholar.google.ca/citations?user=7RNTKkAAAAAJ&hl=en&oi=ao">Google Scholar</a> | 
-  <a href="https://ameskandari.github.io/assets/AmirEskandari_CV.pdf">CV</a> | 
   <a href="https://www.linkedin.com/in/ameskandari/">LinkedIn</a> | 
   <a href="https://github.com/AmEskandari">GitHub</a> | 
   <a href="https://twitter.com/Amireskndri">Twitter</a> | 
