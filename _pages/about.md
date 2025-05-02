@@ -139,9 +139,8 @@ a:hover {
 
   <div class="section-header">News</div>
   <div class="news-section">
-    <div class="news-item">
-      <span class="news-date">[Jan 2025]</span> I served as a PC member of Big Data and Analytics in <a href="https://cs-conferences.acadiau.ca/ant-25/#homePage">ANT-25</a>!
-    </div>
+     <span class="news-date">[May 2025]</span> Two papers got accepted in IEEE COMPSAC.
+  </div>
     <div class="news-item">
       <span class="news-date">[Aug 2024]</span> Submitted our survey on Transformer-based Models to ACM Computing Surveys.
     </div>
