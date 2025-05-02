@@ -136,27 +136,28 @@ a:hover {
   <a href="https://twitter.com/Amireskndri">Twitter</a> | 
   Email: amir.eskandari@queensu.ca 
   </p>
+<div class="section-header">News</div>
+<div class="news-section">
+  <div class="news-item">
+    <span class="news-date">[May 2025]</span> Two papers got accepted in IEEE COMPSAC.
+  </div>
+  <div class="news-item">
+    <span class="news-date">[Aug 2024]</span> Submitted our survey on Transformer-based Models to ACM Computing Surveys.
+  </div>
+  <div class="news-item">
+    <span class="news-date">[Aug 2024]</span> Our paper on GN2DI accepted to IEEE FMLDS 2024.
+  </div>
+  <div class="news-item">
+    <span class="news-date">[May 2024]</span> I won prestigious Connected Minds PhD Award!
+  </div>
+  <div class="news-item">
+    <span class="news-date">[September 2023]</span> I started my PhD in School of Computing, Queen's University!
+  </div>
+  <div class="news-item">
+    <span class="news-date">[March 2023]</span> I defended my master's thesis on GNNs for multivariate time series with an excellent grade!
+  </div>
+</div>
 
-  <div class="section-header">News</div>
-  <div class="news-section">
-     <span class="news-date">[May 2025]</span> Two papers got accepted in IEEE COMPSAC.
-  </div>
-    <div class="news-item">
-      <span class="news-date">[Aug 2024]</span> Submitted our survey on Transformer-based Models to ACM Computing Surveys.
-    </div>
-    <div class="news-item">
-      <span class="news-date">[Aug 2024]</span> Our paper on GN2DI accepted to IEEE FMLDS 2024.
-    </div>
-    <div class="news-item">
-      <span class="news-date">[May 2024]</span> I won prestigious Connected Minds PhD Award!
-    </div>
-    <div class="news-item">
-      <span class="news-date">[September 2023]</span> I started my PhD in School of Computing, Queen's University!
-    </div>
-     <div class="news-item">
-      <span class="news-date">[March 2023]</span> I defended my master's thesis on GNNs for multivariate time series with an excellent grade!
-    </div>
-  </div>
 
   <div class="section-header">Publications</div>
 
