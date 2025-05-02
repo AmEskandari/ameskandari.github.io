@@ -166,7 +166,7 @@ a:hover {
     <div class="publication-title">SDA-GRIN for Adaptive Spatial-Temporal Multivariate Time Series Imputation</div>
     <div class="publication-authors"><b>A. Eskandari</b>, A. Aanad, D. Sharma, F. Zulkernine.</div>
     <div class="publication-links">
-      <a href="https://github.com/AmEskandari/sdagrin">Code (Comming Soon!) </a>
+      <a href="https://github.com/AmEskandari/sdagrin">Code</a>
       <a href="https://ameskandari.github.io/sda-grin/">Website</a>
       <a href="https://arxiv.org/abs/2410.03954">arXiv</a>
     </div>
