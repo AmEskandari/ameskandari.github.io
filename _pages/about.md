@@ -168,7 +168,7 @@ a:hover {
     <div class="publication-links">
       <a href="https://github.com/AmEskandari/sdagrin">Code</a>
       <a href="https://ameskandari.github.io/sda-grin/">Website</a>
-      <a href="https://arxiv.org/abs/2410.03954">arXiv</a>
+      <a href="https://arxiv.org/abs/2410.03954v2">arXiv</a>
     </div>
   </div>
 <!--
