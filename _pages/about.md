@@ -123,7 +123,7 @@ a:hover {
 
   
 
-  <p>I am a PhD student in the School of Computing at <a href="https://www.queensu.ca">Queen's University</a> in Ontario, Canada. I am supervised by Dr. <a href="https://www.cs.queensu.ca/people/Farhana/Zulkernine">Farhana Zulkernine</a> and Dr. <a href="https://www.queensu.ca/psychology/people/jordan-poppenk">Jordan Poppenk</a>. I am also a PhD trainee at Connected Minds CFREF. My research focuses on Graph Machine Learning for text and time-series data, with applications mainly in AI-Reasoning, Multi-Variate Time-Series Imputation, Automated Diagnosis Systems, and Dialogue Systems.</p>
+  <p>I am a PhD student in the School of Computing at <a href="https://www.queensu.ca">Queen's University</a> in Ontario, Canada. I am supervised by Dr. <a href="https://www.cs.queensu.ca/people/Farhana/Zulkernine">Farhana Zulkernine</a> and Dr. <a href="https://www.queensu.ca/psychology/people/jordan-poppenk">Jordan Poppenk</a>. I am also a PhD trainee at Connected Minds CFREF. My research centers on the intersection of graph machine learning and large language models.</p>
 
   <p>Prior to my PhD, I was a graduate research assistant at AUT. I proudly hold an M.Sc. degree from <a href="https://aut.ac.ir/en/">AmirKabir University of Technology</a> and a B.Sc. degree from <a href="https://ikiu.ac.ir/en/">IKIU</a>, both in the field of Electrical Engineering. During my master's, I worked on multi-variate time-series imputation using GNNs. At AUT, I was supervised by Dr. <a href="https://aut.ac.ir/cv/2519/VAHID%20POURAHMADI">Vahid Pourahmadi</a>.</p>
 
