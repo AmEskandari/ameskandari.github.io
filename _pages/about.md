@@ -162,7 +162,7 @@ a:hover {
   <div class="section-header">Publications</div>
 
   <div class="publication-entry">
-    <div class="publication-date"> Preprint </div>
+    <div class="publication-date"> IEEE COMPSAC </div>
     <div class="publication-title">SDA-GRIN for Adaptive Spatial-Temporal Multivariate Time Series Imputation</div>
     <div class="publication-authors"><b>A. Eskandari</b>, A. Aanad, D. Sharma, F. Zulkernine.</div>
     <div class="publication-links">
@@ -184,7 +184,7 @@ a:hover {
   </div>
 -->
   <div class="publication-entry">
-    <div class="publication-date"> Preprint </div>
+    <div class="publication-date">  ACM COMPUTING SURVEY (UNDER-REVIEW) </div>
     <div class="publication-title">Survey: Transformer-based Models in Multimodal Data Processing</div>
     <div class="publication-authors">E. Rashno, <b>A. Eskandari</b>, A. Aanad, F. Zulkernine</div>
     <div class="publication-links">
