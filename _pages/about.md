@@ -138,6 +138,9 @@ a:hover {
   </p>
 <div class="section-header">News</div>
 <div class="news-section">
+ <div class="news-item">
+    <span class="news-date">[Jul 2025]</span> One paper got accepted in ICMV 2025.
+  </div>
   <div class="news-item">
     <span class="news-date">[May 2025]</span> Two papers got accepted in IEEE COMPSAC.
   </div>
@@ -171,18 +174,17 @@ a:hover {
       <a href="https://arxiv.org/abs/2410.03954v2">arXiv</a>
     </div>
   </div>
-<!--
+
   <div class="publication-entry">
-    <div class="publication-date">Preprint</div>
+    <div class="publication-date">ICMV 2025</div>
     <div class="publication-title">Self-Supervised Keypoint Detection with Distilled Depth Keypoint Representation</div>
     <div class="publication-authors">A. Aanad, E. Rashno, <b>A. Eskandari</b>, F. Zulkernine.</div>
     <div class="publication-links">
-      <a href="https://github.com/AmEskandari/SSKD">Code (Comming Soon!) </a>
+      <a href="https://github.com/23WM13/Distill--DKP">Code</a>
       <a href="https://23wm13.github.io/distill-dkp/">Website</a>
-      <a href="https://arxiv.org/pdf/2410.14700">arXiv</a>
+      <a href="https://arxiv.org/abs/2410.14700">arXiv</a>
     </div>
   </div>
--->
   <div class="publication-entry">
     <div class="publication-date">  ACM COMPUTING SURVEY (UNDER-REVIEW) </div>
     <div class="publication-title">Survey: Transformer-based Models in Multimodal Data Processing</div>
