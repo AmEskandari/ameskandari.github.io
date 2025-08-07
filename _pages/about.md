@@ -145,6 +145,9 @@ a:hover {
     <span class="news-date">[May 2025]</span> Two papers got accepted in IEEE COMPSAC.
   </div>
   <div class="news-item">
+    <span class="news-date">[Feb 2025]</span> I presented a poster at Connected Minds Annual retreat.
+  </div>
+  <div class="news-item">
     <span class="news-date">[Aug 2024]</span> Submitted our survey on Transformer-based Models to ACM Computing Surveys.
   </div>
   <div class="news-item">
@@ -172,6 +175,7 @@ a:hover {
       <a href="https://github.com/AmEskandari/sdagrin">Code</a>
       <a href="https://ameskandari.github.io/sda-grin/">Website</a>
       <a href="https://arxiv.org/abs/2410.03954v2">arXiv</a>
+      <a href="https://github.com/AmEskandari/files/sda-grin.pdf"> Slides Link</a>
     </div>
   </div>
 
