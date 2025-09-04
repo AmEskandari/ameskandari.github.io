@@ -106,6 +106,33 @@ body {
   margin-right: 1em;
 }
 
+/* News toggle styles */
+.news-toggle-btn {
+  background: none;
+  border: 1px solid #191970;
+  color: #191970;
+  font-family: Georgia, serif;
+  font-size: 0.85em;
+  padding: 0.4em 0.8em;
+  cursor: pointer;
+  margin-top: 0.8em;
+  border-radius: 3px;
+  transition: background-color 0.2s ease;
+}
+
+.news-toggle-btn:hover {
+  background-color: rgba(25, 25, 112, 0.1);
+}
+
+.news-toggle-btn:focus {
+  outline: 2px solid #191970;
+  outline-offset: 2px;
+}
+
+.news-item.hidden {
+  display: none;
+}
+
 a {
   color: #191970;
   text-decoration: none;
@@ -137,7 +164,7 @@ a:hover {
   Email: amir.eskandari@queensu.ca 
   </p>
 <div class="section-header">News</div>
-<div class="news-section">
+<div class="news-section" id="news-container">
  <div class="news-item">
     <span class="news-date">[Sep 2025]</span> I started a new internship position as Machine Learning Associate at Vector Institute!
   </div>
@@ -150,24 +177,27 @@ a:hover {
   <div class="news-item">
     <span class="news-date">[May 2025]</span> Two papers got accepted in IEEE COMPSAC.
   </div>
-  <div class="news-item">
+  <div class="news-item hidden">
     <span class="news-date">[Feb 2025]</span> I presented a poster at Connected Minds Annual retreat.
   </div>
-  <div class="news-item">
+  <div class="news-item hidden">
     <span class="news-date">[Aug 2024]</span> Submitted our survey on Transformer-based Models to ACM Computing Surveys.
   </div>
-  <div class="news-item">
+  <div class="news-item hidden">
     <span class="news-date">[Aug 2024]</span> Our paper on GN2DI accepted to IEEE FMLDS 2024.
   </div>
-  <div class="news-item">
+  <div class="news-item hidden">
     <span class="news-date">[May 2024]</span> I won prestigious Connected Minds PhD Award!
   </div>
-  <div class="news-item">
+  <div class="news-item hidden">
     <span class="news-date">[September 2023]</span> I started my PhD in School of Computing, Queen's University!
   </div>
-  <div class="news-item">
+  <div class="news-item hidden">
     <span class="news-date">[March 2023]</span> I defended my master's thesis on GNNs for multivariate time series with an excellent grade!
   </div>
+  <button class="news-toggle-btn" id="news-toggle" onclick="toggleNews()" onkeydown="handleKeyPress(event)" aria-expanded="false" aria-controls="news-container">
+    Show more
+  </button>
 </div>
 
 
@@ -214,3 +244,50 @@ a:hover {
     </div>
   </div>
 </div>
+
+<script>
+// Configurable number of initially visible news items
+const VISIBLE_NEWS_COUNT = 4;
+
+function toggleNews() {
+  const hiddenItems = document.querySelectorAll('.news-item.hidden');
+  const visibleHiddenItems = document.querySelectorAll('.news-item:not(.hidden)');
+  const toggleBtn = document.getElementById('news-toggle');
+  
+  if (hiddenItems.length > 0) {
+    // Show all hidden items
+    hiddenItems.forEach(item => {
+      item.classList.remove('hidden');
+    });
+    toggleBtn.textContent = 'Show less';
+    toggleBtn.setAttribute('aria-expanded', 'true');
+  } else {
+    // Hide items beyond the visible count
+    const allItems = document.querySelectorAll('.news-item');
+    for (let i = VISIBLE_NEWS_COUNT; i < allItems.length; i++) {
+      allItems[i].classList.add('hidden');
+    }
+    toggleBtn.textContent = 'Show more';
+    toggleBtn.setAttribute('aria-expanded', 'false');
+  }
+}
+
+function handleKeyPress(event) {
+  // Handle keyboard accessibility (Enter and Space keys)
+  if (event.key === 'Enter' || event.key === ' ') {
+    event.preventDefault();
+    toggleNews();
+  }
+}
+
+// Initialize the toggle button visibility
+document.addEventListener('DOMContentLoaded', function() {
+  const allNewsItems = document.querySelectorAll('.news-item');
+  const toggleBtn = document.getElementById('news-toggle');
+  
+  // Hide the toggle button if there are not enough items to warrant it
+  if (allNewsItems.length <= VISIBLE_NEWS_COUNT) {
+    toggleBtn.style.display = 'none';
+  }
+});
+</script>
