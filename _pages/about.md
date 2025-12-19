@@ -165,6 +165,9 @@ a:hover {
   </p>
 <div class="section-header">News</div>
 <div class="news-section" id="news-container">
+   <div class="news-item">
+    <span class="news-date">[Dec 2026]</span> My paper has been accepted for publication in Transactions on Machine Learning Research (TMLR).
+  </div>
  <div class="news-item">
     <span class="news-date">[Sep 2025]</span> I started a new internship position as Machine Learning Associate at Vector Institute!
   </div>
