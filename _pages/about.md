@@ -150,7 +150,7 @@ a:hover {
 
   
 
-  <p>I am a PhD student in the School of Computing at <a href="https://www.queensu.ca">Queen's University</a> in Ontario, Canada. I am supervised by Dr. <a href="https://www.cs.queensu.ca/people/Farhana/Zulkernine">Farhana Zulkernine</a> and Dr. <a href="https://www.queensu.ca/psychology/people/jordan-poppenk">Jordan Poppenk</a>. I am also a PhD trainee at Connected Minds CFREF. My research centers on the intersection of graph machine learning and large language models.</p>
+  <p>I am a PhD student in the School of Computing at <a href="https://www.queensu.ca">Queen's University</a> in Ontario, Canada. I am supervised by Dr. <a href="https://www.cs.queensu.ca/people/Farhana/Zulkernine">Farhana Zulkernine</a> and Dr. <a href="https://www.queensu.ca/psychology/people/jordan-poppenk">Jordan Poppenk</a>. I am also a PhD trainee at Connected Minds CFREF. <b>I am solving the personalization problem in large language models,</b> exploring RAG-based methods and RL-based fine-tuning approaches. My research broadly spans graph machine learning and LLM post-training.</p>
 
   <p>Prior to my PhD, I was a graduate research assistant at AUT. I proudly hold an M.Sc. degree from <a href="https://aut.ac.ir/en/">AmirKabir University of Technology</a> and a B.Sc. degree from <a href="https://ikiu.ac.ir/en/">IKIU</a>, both in the field of Electrical Engineering. During my master's, I worked on multi-variate time-series imputation using GNNs. At AUT, I was supervised by Dr. <a href="https://aut.ac.ir/cv/2519/VAHID%20POURAHMADI">Vahid Pourahmadi</a>.</p>
 
@@ -204,46 +204,46 @@ a:hover {
 </div>
 
 
-  <div class="section-header">Publications</div>
+  <div class="section-header">Selected Publications</div>
 
   <div class="publication-entry">
-    <div class="publication-date"> IEEE COMPSAC </div>
-    <div class="publication-title">SDA-GRIN for Adaptive Spatial-Temporal Multivariate Time Series Imputation</div>
-    <div class="publication-authors"><b>A. Eskandari</b>, A. Aanad, D. Sharma, F. Zulkernine.</div>
+    <div class="publication-date">TMLR</div>
+    <div class="publication-title">InfGraND: An Influence-Guided GNN-to-MLP Knowledge Distillation</div>
+    <div class="publication-authors"><b>A. Eskandari</b>, A. Anand, E. Rashno, F. Zulkernine.</div>
     <div class="publication-links">
-      <a href="https://github.com/AmEskandari/sdagrin">Code</a>
-      <a href="https://ameskandari.github.io/sda-grin/">Website</a>
-      <a href="https://arxiv.org/abs/2410.03954v2">arXiv</a>
-      <a href="https://github.com/AmEskandari/files/sda-grin.pdf"> Slides Link</a>
+      <a href="https://arxiv.org/pdf/2601.08033">PDF</a>
+      <a href="https://ameskandari.github.io/infgrand-page/">Project Page</a>
+      <a href="https://github.com/AmEskandari/InfGraND">Code</a>
+      <a href="https://ameskandari.github.io/blog-main/posts/infgrand/">Blog</a>
     </div>
   </div>
 
   <div class="publication-entry">
-    <div class="publication-date">ICMV 2025</div>
-    <div class="publication-title">Self-Supervised Keypoint Detection with Distilled Depth Keypoint Representation</div>
-    <div class="publication-authors">A. Aanad, E. Rashno, <b>A. Eskandari</b>, F. Zulkernine.</div>
+    <div class="publication-date">TMLR</div>
+    <div class="publication-title">ASMa: Asymmetric Spatio-temporal Masking for Skeleton Action Representation Learning</div>
+    <div class="publication-authors">A. Anand, <b>A. Eskandari</b>, E. Rashno, F. Zulkernine.</div>
     <div class="publication-links">
-      <a href="https://github.com/23WM13/Distill--DKP">Code</a>
-      <a href="https://23wm13.github.io/distill-dkp/">Website</a>
-      <a href="https://arxiv.org/abs/2410.14700">arXiv</a>
+      <a href="https://openreview.net/pdf?id=kIFo1q3VMS">PDF</a>
     </div>
   </div>
+
   <div class="publication-entry">
-    <div class="publication-date">  ACM COMPUTING SURVEY (UNDER-REVIEW) </div>
+    <div class="publication-date">ACM Survey (Under Review)</div>
     <div class="publication-title">Survey: Transformer-based Models in Multimodal Data Processing</div>
-    <div class="publication-authors">E. Rashno, <b>A. Eskandari</b>, A. Aanad, F. Zulkernine</div>
+    <div class="publication-authors">E. Rashno, <b>A. Eskandari</b>, A. Anand, F. Zulkernine.</div>
     <div class="publication-links">
-      <a href="https://arxiv.org/pdf/2408.04723">arXiv</a>
+      <a href="https://arxiv.org/pdf/2408.04723">Pre-Print</a>
     </div>
   </div>
 
   <div class="publication-entry">
-    <div class="publication-date">IEEE FMLDS 2024</div>
-    <div class="publication-title">GN2DI: A Scalable Graph Neural Network Framework for Spatial Missing Data Imputation in Sensor Networks</div>
-    <div class="publication-authors"><b>A. Eskandari</b>, S. Jamshidiha, V. Pourahmadi.</div>
+    <div class="publication-date">COMPSAC 2025</div>
+    <div class="publication-title">SDA-GRIN for Adaptive Spatial-Temporal Multivariate Time Series Imputation</div>
+    <div class="publication-authors"><b>A. Eskandari</b>, A. Anand, D. Sharma, F. Zulkernine.</div>
     <div class="publication-links">
-      <a href="https://github.com/AmEskandari/GN2DI">Code</a>
-      <a href="https://ieeexplore.ieee.org/abstract/document/10874098"> Paper Link </a>
+      <a href="https://ameskandari.github.io/sda-grin/">Project Page</a>
+      <a href="https://github.com/AmEskandari/sdagrin">Code</a>
+      <a href="https://arxiv.org/pdf/2410.03954v2">Pre-Print</a>
     </div>
   </div>
 </div>
