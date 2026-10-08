@@ -1,0 +1,77 @@
+# Publications, most recent first.
+# `selected: true` puts a paper on the homepage; every paper appears on /papers/.
+# Your name is bolded automatically wherever "A. Eskandari" appears in `authors`.
+
+- title: "InfGraND: An Influence-Guided GNN-to-MLP Knowledge Distillation"
+  authors: "A. Eskandari, A. Anand, E. Rashno, and F. Zulkernine"
+  venue: "Transactions on Machine Learning Research (TMLR)"
+  year: 2026
+  selected: true
+  links:
+    - { label: "pdf", url: "https://arxiv.org/pdf/2601.08033" }
+    - { label: "project", url: "https://ameskandari.github.io/infgrand-page/" }
+    - { label: "code", url: "https://github.com/AmEskandari/InfGraND" }
+    - { label: "blog", url: "https://ameskandari.github.io/blog-main/posts/infgrand/" }
+
+- title: "ElderBench: Benchmarking Personalized Open-Source LLMs for Older Adults"
+  authors: "A. Eskandari, J. Tao, F. Zulkernine, M. Morningstar, J. Poppenk, and B. Herrmann"
+  venue: "IEEE 50th Annual Computers, Software, and Applications Conference (COMPSAC)"
+  year: 2026
+  selected: true
+
+- title: "ASMa: Asymmetric Spatio-temporal Masking for Skeleton Action Representation Learning"
+  authors: "A. Anand, A. Eskandari, E. Rashno, and F. Zulkernine"
+  venue: "Transactions on Machine Learning Research (TMLR)"
+  year: 2026
+  selected: true
+  links:
+    - { label: "pdf", url: "https://openreview.net/pdf?id=kIFo1q3VMS" }
+
+- title: "CASPAR: A Context-Aware Span Refinement Approach for Decision Support"
+  authors: "J. Tao, A. Eskandari, and F. Zulkernine"
+  venue: "Proceedings of the BioNLP 2026 Workshop (Shared Tasks), ACL"
+  year: 2026
+  links:
+    - { label: "pdf", url: "https://aclanthology.org/2026.bionlp-2.21.pdf" }
+
+- title: "SDA-GRIN for Adaptive Spatial-Temporal Multivariate Time Series Imputation"
+  authors: "A. Eskandari, A. Anand, D. Sharma, and F. Zulkernine"
+  venue: "IEEE 49th Annual Computers, Software, and Applications Conference (COMPSAC)"
+  year: 2025
+  selected: true
+  links:
+    - { label: "pdf", url: "https://arxiv.org/pdf/2410.03954v2" }
+    - { label: "project", url: "https://ameskandari.github.io/sda-grin/" }
+    - { label: "code", url: "https://github.com/AmEskandari/sdagrin" }
+
+- title: "Towards a Voice-Adaptive LLM-Based Conversation Bot for Enhanced User Interaction"
+  authors: "A. Eskandari, T. Monir, F. Zulkernine, M. Morningstar, J. Poppenk, et al."
+  venue: "IEEE 49th Annual Computers, Software, and Applications Conference (COMPSAC)"
+  year: 2025
+
+- title: "CNN-CCA: A Deep Learning Approach for Anomaly Detection in Metro Rail Sensor Time-Series Data"
+  authors: "V. Rao, A. Eskandari, F. Zulkernine, M. K. Helwa, and D. Beach"
+  venue: "Machine Learning with Applications, vol. 21"
+  year: 2025
+  links:
+    - { label: "article", url: "https://www.sciencedirect.com/science/article/pii/S2666827025001112" }
+
+- title: "Self-Supervised Keypoint Detection with Distilled Depth Keypoint Representation"
+  authors: "A. Anand, E. Rashno, A. Eskandari, and F. Zulkernine"
+  venue: "International Conference on Machine Vision (ICMV)"
+  year: 2025
+  links:
+    - { label: "pdf", url: "https://arxiv.org/pdf/2410.14700" }
+
+- title: "GN2DI: A Scalable Graph Neural Network Framework for Spatial Missing Data Imputation in Sensor Networks"
+  authors: "A. Eskandari, S. Jamshidiha, and V. Pourahmadi"
+  venue: "IEEE International Conference on Future Machine Learning and Data Science (FMLDS)"
+  year: 2024
+
+- title: "Survey: Transformer-based Models in Multimodal Data Processing"
+  authors: "E. Rashno, A. Eskandari, A. Anand, and F. Zulkernine"
+  venue: "ACM Computing Surveys (under review)"
+  year: 2024
+  selected: true
+  links:
+    - { label: "preprint", url: "https://arxiv.org/pdf/2408.04723" }

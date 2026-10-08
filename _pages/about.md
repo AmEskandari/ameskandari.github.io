@@ -1,251 +1,64 @@
 ---
 permalink: /
+layout: paper
 title: "Amir Eskandari"
-excerpt: "About Me"
-author_profile: true
-redirect_from: 
+description: "Amir Eskandari is a PhD candidate at Queen's University working on the personalization of large language models, graph machine learning and LLM post-training."
+redirect_from:
   - /about/
   - /about.html
   - /research/
 ---
 
-<style>
-body {
-  font-family: Georgia, serif;
-  font-size: 0.83em;
-  background-color: #FFFAF0;
-  color: #333333;
-  line-height: 1.6;
-  margin: 0;
-  padding: 0;
-}
+<header class="masthead prose" id="introduction">
+<h1 class="masthead__name">Amir Eskandari</h1>
+<figure class="plate">
+<img src="{{ '/images/portrait.jpg' | relative_url }}" width="596" height="640" alt="Portrait of Amir Eskandari">
+<figcaption>Plate I. The author.</figcaption>
+</figure>
+<p>I am a PhD candidate in the School of Computing at <a href="https://www.queensu.ca">Queen’s University</a> in Ontario, Canada, working on the personalization of large language models. I am supervised by Dr.&nbsp;<a href="https://www.cs.queensu.ca/people/Farhana/Zulkernine">Farhana Zulkernine</a> and Dr.&nbsp;<a href="https://www.queensu.ca/psychology/people/jordan-poppenk">Jordan Poppenk</a>. I am also a PhD trainee at Connected Minds CFREF.</p>
+<p>Prior to my PhD, I was a graduate research assistant at AUT. I proudly hold an M.Sc. degree from <a href="https://aut.ac.ir/en/">Amirkabir University of Technology</a> and a B.Sc. degree from <a href="https://ikiu.ac.ir/en/">IKIU</a>, both in Electrical Engineering. During my master’s, I worked on multivariate time-series imputation using GNNs, supervised by Dr.&nbsp;<a href="https://aut.ac.ir/cv/2519/VAHID%20POURAHMADI">Vahid Pourahmadi</a>.</p>
+<p><i>I love talking about science and technology. Shoot me an <a href="mailto:amir.eskandari@queensu.ca">email</a> if you’d like to discuss!</i> You can also find me on <a href="https://scholar.google.ca/citations?user=7RNTKkAAAAAJ&amp;hl=en">Google Scholar</a>, <a href="https://github.com/AmEskandari">GitHub</a>, <a href="https://www.linkedin.com/in/ameskandari/">LinkedIn</a> and <a href="https://x.com/Amireskndri">X</a>.</p>
+</header>
 
-.container {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+<section class="prose" id="news">
+<h2>I. News</h2>
+{% assign news_shown = 5 %}
+<table class="news">
+<thead><tr><th scope="col">Date</th><th scope="col">Event</th></tr></thead>
+<tbody>
+{% for item in site.data.news limit: news_shown %}<tr><td>{{ item.date }}</td><td>{{ item.text }}</td></tr>
+{% endfor %}</tbody>
+</table>
+{% assign news_rest = site.data.news.size | minus: news_shown %}
+{% if news_rest > 0 %}
+<details class="news-more">
+<summary><span class="news-more__show">Show {{ news_rest }} earlier entries</span><span class="news-more__hide">Hide earlier entries</span></summary>
+<table class="news">
+<tbody>
+{% for item in site.data.news offset: news_shown %}<tr><td>{{ item.date }}</td><td>{{ item.text }}</td></tr>
+{% endfor %}</tbody>
+</table>
+</details>
+{% endif %}
+</section>
 
-.title {
-  font-family: Georgia, serif;
-  font-size: 2em;
-  color: #333333;
-  margin: 0 0 0.5em 0;
-  padding: 0;
-}
+<section class="prose" id="research">
+<h2>II. Research</h2>
+<p>My goal is one model that gives each person the answer that suits them. I am exploring different approaches to personalization, including retrieval, post-training (RL and SFT) and test-time scaling (Fig.&nbsp;1). Personalization also comes with practical constraints, such as efficiency and local deployment on the user’s own device; I keep these in view and work toward methods that respect them. My research broadly spans graph machine learning and LLM post-training.</p>
 
-.header-links {
-  text-align: right;
-  margin-bottom: 1em;
-}
+{% include paper/fig-personalization.html %}
 
-.header-links a {
-  font-family: Georgia, serif;
-  color: #191970;
-  text-decoration: underline;
-  font-style: italic;
-  font-weight: normal;
-}
-
-.section-header {
-  font-size: 1.2em;
-  color: #191970;
-  margin: 1em 0 0.5em 0;
-  border-bottom: 2px solid #191970;
-  padding-bottom: 0.2em;
-}
-
-.news-item {
-  margin-bottom: 0.5em;
-  padding-left: 1em;
-  border-left: 2px solid #191970;
-  font-size: 0.9em;
-}
-
-.news-date {
-  color: #666;
-  font-size: 0.85em;
-  font-weight: bold;
-}
-
-.publication-entry {
-  margin-bottom: 1em;
-  padding: 0.5em 1em;
-  border-left: 2px solid #191970;
-  background-color: rgba(255, 255, 255, 0.5);
-  font-size: 0.9em;
-}
-
-.publication-date {
-  color: #666;
-  font-size: 0.8em;
-  font-style: italic;
-  margin-bottom: 0.2em;
-}
-
-.publication-title {
-  font-weight: bold;
-  color: #191970;
-  margin: 0.2em 0;
-  font-size: 0.9em;
-}
-
-.publication-authors {
-  margin: 0.2em 0;
-  font-size: 0.85em;
-}
-
-.publication-links {
-  margin-top: 0.2em;
-  font-size: 0.85em;
-}
-
-.publication-links a {
-  color: #191970;
-  text-decoration: none;
-  margin-right: 1em;
-}
-
-/* News toggle styles */
-.news-toggle-btn {
-  background: none;
-  border: 1px solid #191970;
-  color: #191970;
-  font-family: Georgia, serif;
-  font-size: 0.85em;
-  padding: 0.4em 0.8em;
-  cursor: pointer;
-  margin-top: 0.8em;
-  border-radius: 3px;
-  transition: background-color 0.2s ease;
-}
-
-.news-toggle-btn:hover {
-  background-color: rgba(25, 25, 112, 0.1);
-}
-
-.news-toggle-btn:focus {
-  outline: 2px solid #191970;
-  outline-offset: 2px;
-}
-
-.news-item.hidden {
-  display: none;
-}
-
-a {
-  color: #191970;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-</style>
-
-<div class="container">
-  <div class="header-links">
-    <a href="/blog-main">Blog</a>
-  </div>
-
-  
-
-  <p>I am a PhD student in the School of Computing at <a href="https://www.queensu.ca">Queen's University</a> in Ontario, Canada. I am supervised by Dr. <a href="https://www.cs.queensu.ca/people/Farhana/Zulkernine">Farhana Zulkernine</a> and Dr. <a href="https://www.queensu.ca/psychology/people/jordan-poppenk">Jordan Poppenk</a>. I am also a PhD trainee at Connected Minds CFREF. <b>I am solving the personalization problem in large language models,</b> exploring RAG-based methods and RL-based fine-tuning approaches. My research broadly spans graph machine learning and LLM post-training.</p>
-
-  <p>Prior to my PhD, I was a graduate research assistant at AUT. I proudly hold an M.Sc. degree from <a href="https://aut.ac.ir/en/">AmirKabir University of Technology</a> and a B.Sc. degree from <a href="https://ikiu.ac.ir/en/">IKIU</a>, both in the field of Electrical Engineering. During my master's, I worked on multi-variate time-series imputation using GNNs. At AUT, I was supervised by Dr. <a href="https://aut.ac.ir/cv/2519/VAHID%20POURAHMADI">Vahid Pourahmadi</a>.</p>
-
-  <p style="font-style: italic">I love talking about science and technology. Shoot me an email if you'd like to discuss!</p>
-
-  <p>
-  <a href="https://scholar.google.ca/citations?user=7RNTKkAAAAAJ&hl=en&oi=ao">Google Scholar</a> | 
-  <a href="https://www.linkedin.com/in/ameskandari/">LinkedIn</a> | 
-  <a href="https://github.com/AmEskandari">GitHub</a> | 
-  <a href="https://twitter.com/Amireskndri">Twitter</a> | 
-  Email: amir.eskandari@queensu.ca 
-  </p>
-<div class="section-header">News</div>
-<div class="news-section" id="news-container">
-   <div class="news-item">
-    <span class="news-date">[Dec 2026]</span> My paper has been accepted for publication in Transactions on Machine Learning Research (TMLR).
-  </div>
- <div class="news-item">
-    <span class="news-date">[Sep 2025]</span> I started a new internship position as Machine Learning Associate at Vector Institute!
-  </div>
- <div class="news-item">
-    <span class="news-date">[Aug 2025]</span> Our paper got published in <a href="https://www.sciencedirect.com/science/article/pii/S2666827025001112">Machine Learning with Applications (Elsevier)</a>!
-  </div>
- <div class="news-item">
-    <span class="news-date">[Jul 2025]</span> One paper got accepted in ICMV 2025.
-  </div>
-  <div class="news-item">
-    <span class="news-date">[May 2025]</span> Two papers got accepted in IEEE COMPSAC.
-  </div>
-  <div class="news-item hidden">
-    <span class="news-date">[Feb 2025]</span> I presented a poster at Connected Minds Annual retreat.
-  </div>
-  <div class="news-item hidden">
-    <span class="news-date">[Aug 2024]</span> Submitted our survey on Transformer-based Models to ACM Computing Surveys.
-  </div>
-  <div class="news-item hidden">
-    <span class="news-date">[Aug 2024]</span> Our paper on GN2DI accepted to IEEE FMLDS 2024.
-  </div>
-  <div class="news-item hidden">
-    <span class="news-date">[May 2024]</span> I won prestigious Connected Minds PhD Award!
-  </div>
-  <div class="news-item hidden">
-    <span class="news-date">[September 2023]</span> I started my PhD in School of Computing, Queen's University!
-  </div>
-  <div class="news-item hidden">
-    <span class="news-date">[March 2023]</span> I defended my master's thesis on GNNs for multivariate time series with an excellent grade!
-  </div>
-  <button class="news-toggle-btn" id="news-toggle" aria-expanded="false" aria-controls="news-container">
-    Show more
-  </button>
+<div class="definition">
+<p><span class="definition__head">Definition 1</span> (Personalization). Given a query <i>x</i> and what we know about a user <i>u</i>, a personalized model aims for the answer that this user prefers,</p>
+<p class="equation"><span><i>y</i><sub><i>u</i></sub><sup>*</sup> = <span class="limits"><span>arg&thinsp;max</span><i class="limits__sub">y</i></span>&ensp;<i>r</i><sub><i>u</i></sub>(<i>x</i>,&thinsp;<i>y</i>),</span><span class="equation__num">(1)</span></p>
+<p>where <i>r</i><sub><i>u</i></sub> is the user’s own reward, rather than one answer for everyone.</p>
 </div>
+</section>
 
-
-  <div class="section-header">Selected Publications</div>
-
-  <div class="publication-entry">
-    <div class="publication-date">TMLR</div>
-    <div class="publication-title">InfGraND: An Influence-Guided GNN-to-MLP Knowledge Distillation</div>
-    <div class="publication-authors"><b>A. Eskandari</b>, A. Anand, E. Rashno, F. Zulkernine.</div>
-    <div class="publication-links">
-      <a href="https://arxiv.org/pdf/2601.08033">PDF</a>
-      <a href="https://ameskandari.github.io/infgrand-page/">Project Page</a>
-      <a href="https://github.com/AmEskandari/InfGraND">Code</a>
-      <a href="https://ameskandari.github.io/blog-main/posts/infgrand/">Blog</a>
-    </div>
-  </div>
-
-  <div class="publication-entry">
-    <div class="publication-date">TMLR</div>
-    <div class="publication-title">ASMa: Asymmetric Spatio-temporal Masking for Skeleton Action Representation Learning</div>
-    <div class="publication-authors">A. Anand, <b>A. Eskandari</b>, E. Rashno, F. Zulkernine.</div>
-    <div class="publication-links">
-      <a href="https://openreview.net/pdf?id=kIFo1q3VMS">PDF</a>
-    </div>
-  </div>
-
-  <div class="publication-entry">
-    <div class="publication-date">ACM Survey (Under Review)</div>
-    <div class="publication-title">Survey: Transformer-based Models in Multimodal Data Processing</div>
-    <div class="publication-authors">E. Rashno, <b>A. Eskandari</b>, A. Anand, F. Zulkernine.</div>
-    <div class="publication-links">
-      <a href="https://arxiv.org/pdf/2408.04723">Pre-Print</a>
-    </div>
-  </div>
-
-  <div class="publication-entry">
-    <div class="publication-date">COMPSAC 2025</div>
-    <div class="publication-title">SDA-GRIN for Adaptive Spatial-Temporal Multivariate Time Series Imputation</div>
-    <div class="publication-authors"><b>A. Eskandari</b>, A. Anand, D. Sharma, F. Zulkernine.</div>
-    <div class="publication-links">
-      <a href="https://ameskandari.github.io/sda-grin/">Project Page</a>
-      <a href="https://github.com/AmEskandari/sdagrin">Code</a>
-      <a href="https://arxiv.org/pdf/2410.03954v2">Pre-Print</a>
-    </div>
-  </div>
-</div>
-
-<script src="{{ '/assets/js/news-toggle.js' | relative_url }}"></script>
+<section class="prose" id="publications">
+<h2>III. Selected Publications</h2>
+<ol class="references">
+{% for pub in site.data.publications %}{% if pub.selected %}{% include paper/reference.html pub=pub %}{% endif %}{% endfor %}
+</ol>
+<p class="references-note">All papers are listed on the <a href="{{ '/papers/' | relative_url }}">publications page</a>.</p>
+</section>

@@ -1,0 +1,48 @@
+# News items, most recent first.
+# The first five appear on the homepage; the rest sit under "earlier entries".
+# `text` may contain HTML (links, <i>, etc.).
+
+- date: "Aug 2026"
+  text: 'I attended the RBC Borealis AI summer school, and our team won the challenge!'
+
+- date: "Jul 2026"
+  text: 'Our paper <i>ElderBench</i>, a benchmark of personalized open-source LLMs for older adults, was published at IEEE COMPSAC 2026 in Madrid.'
+
+- date: "Jul 2026"
+  text: 'Our system <a href="https://aclanthology.org/2026.bionlp-2.21/"><i>CASPAR</i></a> for the MedExACT shared task on medical decision extraction was published at the BioNLP 2026 workshop at ACL.'
+
+- date: "Feb 2026"
+  text: 'Our paper <a href="https://openreview.net/forum?id=kIFo1q3VMS"><i>ASMa</i></a> on asymmetric spatio-temporal masking for skeleton action representation learning was published in <i>Transactions on Machine Learning Research</i> (TMLR).'
+
+- date: "Dec 2025"
+  text: 'My paper <a href="https://ameskandari.github.io/infgrand-page/"><i>InfGraND</i></a>, an influence-guided GNN-to-MLP knowledge distillation method, has been accepted for publication in <i>Transactions on Machine Learning Research</i> (TMLR).'
+
+- date: "Sep 2025"
+  text: 'I started a new internship position as Machine Learning Associate at the Vector Institute!'
+
+- date: "Aug 2025"
+  text: 'Our paper <i>CNN-CCA</i> on anomaly detection in metro rail sensor data got published in <a href="https://www.sciencedirect.com/science/article/pii/S2666827025001112"><i>Machine Learning with Applications</i></a> (Elsevier)!'
+
+- date: "Jul 2025"
+  text: 'Our paper on self-supervised keypoint detection with distilled depth representations got accepted at ICMV 2025.'
+
+- date: "May 2025"
+  text: 'Two papers got accepted at IEEE COMPSAC 2025: <a href="https://ameskandari.github.io/sda-grin/"><i>SDA-GRIN</i></a> for spatio-temporal time-series imputation, and a voice-adaptive LLM conversation bot.'
+
+- date: "Feb 2025"
+  text: 'I presented a poster at the Connected Minds annual retreat.'
+
+- date: "Aug 2024"
+  text: 'Submitted our <a href="https://arxiv.org/abs/2408.04723">survey on Transformer-based models</a> to <i>ACM Computing Surveys</i>.'
+
+- date: "Aug 2024"
+  text: 'Our paper on <i>GN2DI</i>, a scalable GNN for spatial missing-data imputation in sensor networks, was accepted to IEEE FMLDS 2024.'
+
+- date: "May 2024"
+  text: 'I won the prestigious Connected Minds PhD Award!'
+
+- date: "Sep 2023"
+  text: 'I started my PhD in the School of Computing, Queen’s University!'
+
+- date: "Mar 2023"
+  text: 'I defended my master’s thesis on GNNs for multivariate time series with an excellent grade!'

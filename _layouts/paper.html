@@ -1,0 +1,48 @@
+{% if page.url == "/" %}{% assign doc_title = site.name %}{% else %}{% assign doc_title = page.title | append: " | " | append: site.name %}{% endif %}
+{% assign doc_description = page.description | default: site.description %}
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ doc_title }}</title>
+  <meta name="description" content="{{ doc_description | escape }}">
+  <link rel="canonical" href="{{ page.url | replace: 'index.html', '' | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ doc_title | escape }}">
+  <meta property="og:description" content="{{ doc_description | escape }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/images/portrait.jpg' | absolute_url }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" type="image/png" href="{{ '/assets/icon-website.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap">
+  <link rel="stylesheet" href="{{ '/assets/css/paper.css' | relative_url }}">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <div class="sheet">
+    <nav class="running-head" aria-label="Site">
+      <a class="running-head__name" href="{{ '/' | relative_url }}"{% if page.url == "/" %} aria-current="page"{% endif %}>Amir Eskandari</a>
+      <span class="running-head__links">
+        <a href="{{ '/papers/' | relative_url }}"{% if page.url == "/papers/" %} aria-current="page"{% endif %}>Publications</a>
+        <a href="{{ '/blog-main/' | relative_url }}">Blog</a>
+      </span>
+    </nav>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer class="footnotes">
+      {% for note in page.footnotes %}
+      <p id="fn{{ forloop.index }}"><sup>{{ forloop.index }}</sup> {{ note }} <a href="#fnref{{ forloop.index }}" class="footnotes__back" aria-label="Back to text">&#8617;&#xFE0E;</a></p>
+      {% endfor %}
+      <p>The author is with the School of Computing, Queen’s University, Kingston, Ontario, Canada (e-mail: <a href="mailto:amir.eskandari@queensu.ca">amir.eskandari@queensu.ca</a>).</p>
+      <p>Manuscript last revised {{ site.time | date: "%B %-d, %Y" }}.</p>
+    </footer>
+  </div>
+</body>
+</html>

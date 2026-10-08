@@ -1,0 +1,130 @@
+{% comment %}
+  Fig. 1 — where personalization can enter a language model. What we know
+  about the user feeds three stages of the model: what it reads (retrieval),
+  what it has learned (post-training) and how it decodes (test-time scaling),
+  all within an efficiency and local-deployment budget. Two drawings: a wide
+  one and a stacked one for phones. Each stroke carries a --d delay so the
+  figure draws itself once, from the user down into the model.
+{% endcomment %}
+<figure class="persona-fig" id="fig1">
+  <svg class="persona-fig__wide" viewBox="0 0 840 272" role="img" aria-labelledby="fig1-title fig1-desc">
+    <title id="fig1-title">Where personalization can enter a language model</title>
+    <desc id="fig1-desc">User signals (stated preferences, interaction history, feedback and context) feed three stages of a language model that turns a query x into a response y for user u: the context, through retrieval; the weights, through post-training with SFT and RL; and decoding, through test-time scaling. All three sit within a budget of efficiency and local deployment.</desc>
+    <g fill="none" stroke="currentColor" stroke-width="1.4">
+      <path class="draw" style="--d:0s" pathLength="1" d="M120 24H760V64H120Z"/>
+      <path class="ink" style="--d:.2s" d="M280 24V64M440 24V64M600 24V64"/>
+      <path class="draw" style="--d:.4s" pathLength="1" d="M440 64V84"/>
+      <path class="draw" style="--d:.5s" pathLength="1" d="M210 84H670"/>
+      <path class="draw" style="--d:.7s" pathLength="1" d="M210 84V140"/>
+      <path class="draw" style="--d:.7s" pathLength="1" d="M440 84V140"/>
+      <path class="draw" style="--d:.7s" pathLength="1" d="M670 84V140"/>
+      <path class="draw" style="--d:.3s" pathLength="1" d="M30 178H120"/>
+      <path class="draw" style="--d:1s" pathLength="1" d="M130 150H290V206H130Z"/>
+      <path class="draw" style="--d:1.1s" pathLength="1" d="M360 150H520V206H360Z"/>
+      <path class="draw" style="--d:1.2s" pathLength="1" d="M590 150H750V206H590Z"/>
+      <path class="draw" style="--d:1.3s" pathLength="1" d="M290 178H350"/>
+      <path class="draw" style="--d:1.4s" pathLength="1" d="M520 178H580"/>
+      <path class="draw" style="--d:1.5s" pathLength="1" d="M750 178H800"/>
+      <path class="draw" style="--d:1.8s" pathLength="1" d="M130 224V232H750V224"/>
+    </g>
+    <g fill="currentColor">
+      <path class="ink" style="--d:.8s" d="M210 150l-4-10h8z"/>
+      <path class="ink" style="--d:.9s" d="M440 150l-4-10h8z"/>
+      <path class="ink" style="--d:1s" d="M670 150l-4-10h8z"/>
+      <path class="ink" style="--d:.6s" d="M130 178l-10-4v8z"/>
+      <path class="ink" style="--d:1.6s" d="M360 178l-10-4v8z"/>
+      <path class="ink" style="--d:1.7s" d="M590 178l-10-4v8z"/>
+      <path class="ink" style="--d:1.8s" d="M810 178l-10-4v8z"/>
+
+      <text class="ink persona-fig__caps" style="--d:0s" x="440" y="14" text-anchor="middle">THE USER</text>
+      <g class="ink" style="--d:.2s" text-anchor="middle">
+        <text x="200" y="49">stated preferences</text>
+        <text x="360" y="49">interaction history</text>
+        <text x="520" y="49">feedback</text>
+        <text x="680" y="49">context</text>
+      </g>
+      <g class="ink" style="--d:.7s" font-style="italic">
+        <text x="218" y="116">retrieval</text>
+        <text x="448" y="108">post-training</text>
+        <text x="448" y="126">(SFT, RL)</text>
+        <text x="678" y="116">test-time scaling</text>
+      </g>
+      <text class="ink" style="--d:.3s" x="74" y="170" text-anchor="middle">query <tspan font-style="italic">x</tspan></text>
+      <g class="ink" style="--d:1.2s" text-anchor="middle">
+        <text class="persona-fig__caps" x="210" y="175">CONTEXT</text>
+        <text x="210" y="195" font-style="italic" font-size=".9em">what it reads</text>
+        <text class="persona-fig__caps" x="440" y="175">WEIGHTS</text>
+        <text x="440" y="195" font-style="italic" font-size=".9em">what it has learned</text>
+        <text class="persona-fig__caps" x="670" y="175">DECODING</text>
+        <text x="670" y="195" font-style="italic" font-size=".9em">how it answers</text>
+      </g>
+      <text class="ink" style="--d:1.8s" x="822" y="183" text-anchor="middle"><tspan font-style="italic">y</tspan><tspan dy="4" font-size=".7em" font-style="italic">u</tspan></text>
+      <text class="ink" style="--d:2s" x="440" y="256" text-anchor="middle">within a budget: efficiency, memory, and local deployment on the user’s own device</text>
+    </g>
+  </svg>
+
+  <svg class="persona-fig__tall" viewBox="0 0 340 452" role="img" aria-labelledby="fig1-title-tall fig1-desc-tall">
+    <title id="fig1-title-tall">Where personalization can enter a language model</title>
+    <desc id="fig1-desc-tall">User signals (stated preferences, interaction history, feedback and context) feed three stages of a language model that turns a query x into a response y for user u: the context, through retrieval; the weights, through post-training with SFT and RL; and decoding, through test-time scaling. All three sit within a budget of efficiency and local deployment.</desc>
+    <g fill="none" stroke="currentColor" stroke-width="1.4">
+      <path class="draw" style="--d:0s" pathLength="1" d="M10 24H330V96H10Z"/>
+      <path class="ink" style="--d:.2s" d="M170 24V96M10 60H330"/>
+      <path class="draw" style="--d:.5s" pathLength="1" d="M170 96V106H34V316"/>
+      <path class="draw" style="--d:.8s" pathLength="1" d="M34 148H110"/>
+      <path class="draw" style="--d:.9s" pathLength="1" d="M34 232H110"/>
+      <path class="draw" style="--d:1s" pathLength="1" d="M34 316H110"/>
+      <path class="draw" style="--d:.3s" pathLength="1" d="M330 148H310"/>
+      <path class="draw" style="--d:1s" pathLength="1" d="M120 120H300V176H120Z"/>
+      <path class="draw" style="--d:1.1s" pathLength="1" d="M120 204H300V260H120Z"/>
+      <path class="draw" style="--d:1.2s" pathLength="1" d="M120 288H300V344H120Z"/>
+      <path class="draw" style="--d:1.3s" pathLength="1" d="M210 176V195"/>
+      <path class="draw" style="--d:1.4s" pathLength="1" d="M210 260V279"/>
+      <path class="draw" style="--d:1.5s" pathLength="1" d="M210 344V366"/>
+      <path class="draw" style="--d:1.8s" pathLength="1" d="M10 398V404H330V398"/>
+    </g>
+    <g fill="currentColor">
+      <path class="ink" style="--d:1s" d="M120 148l-10-4v8z"/>
+      <path class="ink" style="--d:1.1s" d="M120 232l-10-4v8z"/>
+      <path class="ink" style="--d:1.2s" d="M120 316l-10-4v8z"/>
+      <path class="ink" style="--d:.6s" d="M300 148l10-4v8z"/>
+      <path class="ink" style="--d:1.6s" d="M210 204l-4-10h8z"/>
+      <path class="ink" style="--d:1.7s" d="M210 288l-4-10h8z"/>
+      <path class="ink" style="--d:1.8s" d="M210 376l-4-10h8z"/>
+
+      <text class="ink persona-fig__caps" style="--d:0s" x="170" y="14" text-anchor="middle">THE USER</text>
+      <g class="ink" style="--d:.2s" text-anchor="middle">
+        <text x="90" y="46">stated preferences</text>
+        <text x="250" y="46">interaction history</text>
+        <text x="90" y="82">feedback</text>
+        <text x="250" y="82">context</text>
+      </g>
+      <text class="ink" style="--d:.3s" x="322" y="138" text-anchor="middle" font-style="italic">x</text>
+      <g class="ink" style="--d:1.2s" text-anchor="middle">
+        <text class="persona-fig__caps" x="210" y="143">CONTEXT</text>
+        <text x="210" y="163" font-style="italic">via retrieval</text>
+        <text class="persona-fig__caps" x="210" y="227">WEIGHTS</text>
+        <text x="210" y="247" font-style="italic">via post-training (SFT, RL)</text>
+        <text class="persona-fig__caps" x="210" y="311">DECODING</text>
+        <text x="210" y="331" font-style="italic">via test-time scaling</text>
+      </g>
+      <text class="ink" style="--d:1.8s" x="222" y="390"><tspan font-style="italic">y</tspan><tspan dy="4" font-size=".7em" font-style="italic">u</tspan></text>
+      <g class="ink" style="--d:2s" text-anchor="middle">
+        <text x="170" y="424">within a budget: efficiency, memory, and</text>
+        <text x="170" y="442">local deployment on the user’s own device</text>
+      </g>
+    </g>
+  </svg>
+
+  <figcaption>Fig. 1—Where personalization can enter a language model. What we know about the user can shape what the model reads, what it has learned, or how it decodes, and every route has to fit a practical budget.</figcaption>
+</figure>
+<script>
+  (function () {
+    var fig = document.getElementById('fig1');
+    if (!fig) return;
+    if (!('IntersectionObserver' in window)) { fig.classList.add('is-drawn'); return; }
+    var io = new IntersectionObserver(function (entries) {
+      if (entries[0].isIntersecting) { fig.classList.add('is-drawn'); io.disconnect(); }
+    }, { threshold: 0.4 });
+    io.observe(fig);
+  })();
+</script>

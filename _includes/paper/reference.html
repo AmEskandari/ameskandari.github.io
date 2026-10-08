@@ -1,0 +1,2 @@
+{% assign pub = include.pub %}
+<li>{{ pub.authors | replace: "A. Eskandari", "<strong>A. Eskandari</strong>" }}, “{{ pub.title }},” <i>{{ pub.venue }}</i>, {{ pub.year }}.{% if pub.links %}<span class="ref-links">{% for link in pub.links %} <a href="{{ link.url }}">[{{ link.label }}]</a>{% endfor %}</span>{% endif %}</li>

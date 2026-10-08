@@ -1,0 +1,280 @@
+/*
+ * Manuscript theme.
+ * The page is set like a technical paper: a figure with a formal definition,
+ * small-caps section heads with Roman numerals, a three-rule table, numbered
+ * references and a first-page footnote. Used by _layouts/paper.html.
+ */
+
+:root {
+  --desk: #d3d4ce;
+  --paper: #fcfaf5;
+  --ink: #1d1c1a;
+  --pencil: #66625a;
+  --link: #253b8c;
+  --link-rule: rgba(37, 59, 140, .4);
+  --sheet-shadow: 0 1px 1px rgba(45, 43, 36, .12), 0 22px 48px -20px rgba(45, 43, 36, .38);
+  --serif: "Old Standard TT", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --desk: #0e0f10;
+    --paper: #1b1b19;
+    --ink: #e7e3d8;
+    --pencil: #a39e91;
+    --link: #a8b6ec;
+    --link-rule: rgba(168, 182, 236, .45);
+    --sheet-shadow: 0 0 0 1px rgba(255, 255, 255, .05), 0 22px 48px -20px rgba(0, 0, 0, .8);
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--desk);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 1.1875rem;
+  line-height: 1.6;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* The sheet of paper on the desk. */
+.sheet {
+  max-width: 51rem;
+  margin: 2.5rem auto 4rem;
+  padding: 2.25rem 5.5rem 3.5rem;
+  background: var(--paper);
+  box-shadow: var(--sheet-shadow);
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: var(--link-rule);
+  text-decoration-thickness: 1px;
+  text-underline-offset: .18em;
+}
+a:hover { text-decoration-color: currentColor; }
+a:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; text-decoration: none; }
+
+sup { font-size: .68em; line-height: 0; }
+sup a { text-decoration: none; padding: 0 .1em; }
+
+/* Running head, as at the top of a journal page. */
+.running-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding-bottom: .35rem;
+  border-bottom: 1px solid var(--ink);
+  margin-bottom: 3rem;
+  font-size: .84em;
+  font-style: italic;
+}
+.running-head a { color: var(--ink); text-decoration: none; }
+.running-head a:hover,
+.running-head a[aria-current="page"] { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .2em; }
+.running-head__links a + a { margin-left: 1.4em; }
+
+/* Page header: name and a one-paragraph statement of the research. */
+.masthead { margin-bottom: 1rem; }
+.masthead .plate { margin-top: .3em; }
+.masthead__name { margin: 0 0 .5em; font-size: 2em; font-weight: 400; line-height: 1.2; letter-spacing: .01em; }
+.masthead__lede { margin: 0; font-size: 1.05em; line-height: 1.6; text-wrap: pretty; }
+
+/* Body text: justified, indented paragraphs with no space between them. */
+.prose h2 {
+  margin: 2.8em 0 1em;
+  font-size: 1em;
+  font-weight: 400;
+  font-variant-caps: small-caps;
+  letter-spacing: .06em;
+  text-align: center;
+}
+.prose p {
+  margin: 0;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  text-wrap: pretty;
+}
+.prose p + p { text-indent: 1.5em; }
+.prose::after { content: ""; display: table; clear: both; }
+
+.plate { float: right; width: 9em; margin: .4em 0 .6em 1.5em; }
+.plate img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 3px;
+  border: 1px solid var(--ink);
+  background: var(--paper);
+}
+.plate figcaption { margin-top: .4em; font-size: .72em; font-style: italic; text-align: center; }
+
+/* Fig. 1 */
+.persona-fig { margin: 3rem -3.5rem 0; }
+.persona-fig svg { width: 100%; height: auto; overflow: visible; }
+.persona-fig__wide { display: block; font-size: 14.5px; }
+.persona-fig__tall { display: none; max-width: 21rem; margin: 0 auto; font-size: 12px; }
+.persona-fig__caps { font-size: .86em; letter-spacing: .1em; }
+.persona-fig figcaption {
+  margin: 1.4em 3.5rem 0;
+  font-size: .8em;
+  line-height: 1.5;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+.js .persona-fig .draw { stroke-dasharray: 1 1; stroke-dashoffset: 1; }
+.js .persona-fig .ink { opacity: 0; }
+.persona-fig.is-drawn .draw { animation: draw .42s var(--d, 0s) cubic-bezier(.45, 0, .25, 1) forwards; }
+.persona-fig.is-drawn .ink { animation: ink .35s var(--d, 0s) ease-out forwards; }
+@keyframes draw {
+  99% { stroke-dashoffset: 0; stroke-dasharray: 1 1; }
+  100% { stroke-dashoffset: 0; stroke-dasharray: none; }
+}
+@keyframes ink { to { opacity: 1; } }
+
+@media (prefers-reduced-motion: reduce) {
+  .js .persona-fig .draw { stroke-dasharray: none; stroke-dashoffset: 0; }
+  .js .persona-fig .ink { opacity: 1; }
+  .persona-fig.is-drawn .draw,
+  .persona-fig.is-drawn .ink { animation: none; }
+}
+
+/* Definition with a numbered display equation. */
+.definition { margin: 2.25rem 0 0; }
+.prose .definition p { text-indent: 0; }
+.definition p { margin: 0; text-align: justify; hyphens: auto; -webkit-hyphens: auto; text-wrap: pretty; }
+.definition__head { font-weight: 700; }
+.definition sub, .definition sup, .persona-fig figcaption sub { font-size: .7em; line-height: 0; }
+.equation {
+  position: relative;
+  margin: .7em 0 !important;
+  padding: 0 2.5em;
+  text-align: center !important;
+}
+.equation__num { position: absolute; right: 0; }
+.limits { display: inline-flex; flex-direction: column; align-items: center; line-height: 1.15; }
+.limits__sub { font-size: .7em; }
+
+/* News, as a three-rule table. */
+.news {
+  width: 100%;
+  border-collapse: collapse;
+  border-top: 1.5px solid var(--ink);
+  border-bottom: 1.5px solid var(--ink);
+  font-size: .9em;
+  line-height: 1.5;
+}
+.news th {
+  padding: .3em .6em .3em 0;
+  border-bottom: 1px solid var(--ink);
+  font-weight: 400;
+  font-variant-caps: small-caps;
+  letter-spacing: .05em;
+  text-align: left;
+}
+.news td { padding: .3em .6em .3em 0; vertical-align: top; }
+.news td:first-child { width: 6em; white-space: nowrap; color: var(--pencil); }
+.news tbody tr:first-child td { padding-top: .6em; }
+.news tbody tr:last-child td { padding-bottom: .6em; }
+
+.news-more { margin-top: .8em; }
+.news-more summary {
+  display: inline-block;
+  cursor: pointer;
+  list-style: none;
+  font-size: .9em;
+  font-style: italic;
+  color: var(--link);
+}
+.news-more summary::-webkit-details-marker { display: none; }
+.news-more summary:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .18em; }
+.news-more summary:focus-visible { outline: 2px solid var(--link); outline-offset: 2px; }
+.news-more[open] .news-more__show,
+.news-more:not([open]) .news-more__hide { display: none; }
+.news-more .news { margin-top: .8em; }
+
+/* References. */
+.references {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  counter-reset: ref;
+  font-size: .9em;
+  line-height: 1.5;
+}
+.references li {
+  position: relative;
+  counter-increment: ref;
+  padding-left: 2.4em;
+  margin-bottom: .6em;
+}
+.references li::before {
+  content: "[" counter(ref) "]";
+  position: absolute;
+  left: 0;
+  width: 1.9em;
+  text-align: right;
+}
+.references strong { font-weight: 700; }
+.ref-links a { font-variant-caps: small-caps; letter-spacing: .02em; text-decoration: none; }
+.ref-links a:hover { text-decoration: underline; text-decoration-thickness: 1px; }
+
+.references-note { margin-top: 1em !important; font-size: .9em; font-style: italic; text-indent: 0 !important; }
+
+/* Full bibliography page: one numbering across all years. */
+.bibliography { counter-reset: ref; }
+.bibliography .references { counter-reset: none; }
+.bibliography h2 { font-variant-caps: normal; font-style: italic; letter-spacing: .02em; }
+
+/* First-page footnotes. */
+.footnotes { margin-top: 4.5rem; font-size: .78em; line-height: 1.5; }
+.footnotes::before {
+  content: "";
+  display: block;
+  width: 7em;
+  margin-bottom: .8em;
+  border-top: 1px solid var(--ink);
+}
+.footnotes p { margin: 0 0 .35em; text-indent: 1.2em; }
+.footnotes sup { font-size: .8em; }
+.footnotes__back { text-decoration: none; }
+
+/* Below sheet width, the paper fills the screen. */
+@media (max-width: 55rem) {
+  body { background: var(--paper); }
+  .sheet { margin: 0 auto; padding: 1.25rem 3rem 3rem; box-shadow: none; }
+  .running-head { margin-bottom: 2.5rem; }
+  .persona-fig { margin-left: 0; margin-right: 0; }
+  .persona-fig figcaption { margin-left: 0; margin-right: 0; }
+  .persona-fig__wide { display: none; }
+  .persona-fig__tall { display: block; }
+}
+
+@media (max-width: 36rem) {
+  body { font-size: 1.0625rem; }
+  .sheet { padding: 1rem 1rem 2.5rem; }
+  .running-head { margin-bottom: 2rem; }
+  .masthead__name { font-size: 1.7em; }
+  .prose p, .definition p, .persona-fig figcaption { text-align: left; }
+  .plate { width: 7em; margin-left: 1em; }
+  .news td:first-child { width: 5em; }
+}
+
+@media print {
+  body { background: none; font-size: 11pt; }
+  .sheet { max-width: none; margin: 0; padding: 0; box-shadow: none; }
+  .running-head { display: none; }
+  .js .persona-fig .draw { stroke-dasharray: none; stroke-dashoffset: 0; }
+  .js .persona-fig .ink { opacity: 1; }
+}
